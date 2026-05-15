@@ -1,0 +1,16 @@
+[0.316s] Invoking command in '/home/alberto/ros2_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_moveit_config:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/mycobot_interfaces -- -j16 -l16
+[0.749s] [  3%] Built target mycobot_interfaces__cpp
+[0.749s] [ 12%] Built target mycobot_interfaces__rosidl_generator_c
+[0.749s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_cpp[0m
+[0.749s] [35m[1mConsolidate compiler generated dependencies of target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.749s] [ 16%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/get_planning_scene__type_support.cpp.o[0m
+[0.749s] [ 19%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/get_planning_scene__type_support.cpp.o[0m
+[0.749s] failed to create symbolic link '/home/alberto/ros2_ws/build/mycobot_interfaces/ament_cmake_python/mycobot_interfaces/mycobot_interfaces' because existing path cannot be removed: Is a directory
+[0.750s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_mycobot_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_mycobot_interfaces] Error 1
+[0.750s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_mycobot_interfaces.dir/all] Error 2
+[0.750s] gmake[1]: *** Waiting for unfinished jobs....
+[0.826s] [ 22%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_cpp.so[0m
+[0.957s] [ 25%] Built target mycobot_interfaces__rosidl_typesupport_cpp
+[1.527s] [ 29%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.607s] [ 32%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.608s] gmake: *** [Makefile:146: all] Error 2

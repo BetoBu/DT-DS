@@ -1,0 +1,47 @@
+[1.151s] Invoking command in '/home/alberto/ros2_ws/build/uf_ros_lib': PYTHONPATH=/home/alberto/ros2_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/alberto/ros2_ws/build/uf_ros_lib/build
+[1.422s] running develop
+[1.564s] Removing /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf-ros-lib.egg-link (link to .)
+[1.588s] Invoked command in '/home/alberto/ros2_ws/build/uf_ros_lib' returned '0': PYTHONPATH=/home/alberto/ros2_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/alberto/ros2_ws/build/uf_ros_lib/build
+[1.590s] Invoking command in '/home/alberto/ros2_ws/src/xarm_ros2/uf_ros_lib': PYTHONPATH=/home/alberto/ros2_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/uf_ros_lib build --build-base /home/alberto/ros2_ws/build/uf_ros_lib/build install --record /home/alberto/ros2_ws/build/uf_ros_lib/install.log --single-version-externally-managed install_data --force
+[1.832s] running egg_info
+[1.833s] writing ../../../build/uf_ros_lib/uf_ros_lib.egg-info/PKG-INFO
+[1.833s] writing dependency_links to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/dependency_links.txt
+[1.833s] writing entry points to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/entry_points.txt
+[1.833s] writing requirements to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/requires.txt
+[1.833s] writing top-level names to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/top_level.txt
+[1.837s] reading manifest file '../../../build/uf_ros_lib/uf_ros_lib.egg-info/SOURCES.txt'
+[1.838s] writing manifest file '../../../build/uf_ros_lib/uf_ros_lib.egg-info/SOURCES.txt'
+[1.838s] running build
+[1.839s] running build_py
+[1.840s] running install
+[1.841s] running install_lib
+[1.842s] creating /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib
+[1.842s] copying /home/alberto/ros2_ws/build/uf_ros_lib/build/lib/uf_ros_lib/__init__.py -> /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib
+[1.842s] creating /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions
+[1.842s] copying /home/alberto/ros2_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/__init__.py -> /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions
+[1.843s] copying /home/alberto/ros2_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/kinematics.py -> /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions
+[1.843s] copying /home/alberto/ros2_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/planning_pipelines.py -> /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions
+[1.843s] copying /home/alberto/ros2_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/common.py -> /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions
+[1.844s] copying /home/alberto/ros2_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/joint_limits.py -> /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions
+[1.844s] copying /home/alberto/ros2_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions/controllers.py -> /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions
+[1.844s] copying /home/alberto/ros2_ws/build/uf_ros_lib/build/lib/uf_ros_lib/parameter_descriptions.py -> /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib
+[1.845s] copying /home/alberto/ros2_ws/build/uf_ros_lib/build/lib/uf_ros_lib/moveit_configs_builder.py -> /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib
+[1.846s] copying /home/alberto/ros2_ws/build/uf_ros_lib/build/lib/uf_ros_lib/uf_robot_utils.py -> /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib
+[1.847s] byte-compiling /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/__init__.py to __init__.cpython-310.pyc
+[1.847s] byte-compiling /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions/__init__.py to __init__.cpython-310.pyc
+[1.848s] byte-compiling /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions/kinematics.py to kinematics.cpython-310.pyc
+[1.850s] byte-compiling /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions/planning_pipelines.py to planning_pipelines.cpython-310.pyc
+[1.852s] byte-compiling /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions/common.py to common.cpython-310.pyc
+[1.854s] byte-compiling /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions/joint_limits.py to joint_limits.cpython-310.pyc
+[1.856s] byte-compiling /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/substitutions/controllers.py to controllers.cpython-310.pyc
+[1.858s] byte-compiling /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/parameter_descriptions.py to parameter_descriptions.cpython-310.pyc
+[1.858s] byte-compiling /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/moveit_configs_builder.py to moveit_configs_builder.cpython-310.pyc
+[1.873s] byte-compiling /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib/uf_robot_utils.py to uf_robot_utils.cpython-310.pyc
+[1.876s] running install_data
+[1.876s] copying resource/uf_ros_lib -> /home/alberto/ros2_ws/install/uf_ros_lib/share/ament_index/resource_index/packages
+[1.877s] copying package.xml -> /home/alberto/ros2_ws/install/uf_ros_lib/share/uf_ros_lib
+[1.877s] running install_egg_info
+[1.880s] Copying ../../../build/uf_ros_lib/uf_ros_lib.egg-info to /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib-0.0.0-py3.10.egg-info
+[1.881s] running install_scripts
+[1.912s] writing list of installed files to '/home/alberto/ros2_ws/build/uf_ros_lib/install.log'
+[1.936s] Invoked command in '/home/alberto/ros2_ws/src/xarm_ros2/uf_ros_lib' returned '0': PYTHONPATH=/home/alberto/ros2_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/uf_ros_lib build --build-base /home/alberto/ros2_ws/build/uf_ros_lib/build install --record /home/alberto/ros2_ws/build/uf_ros_lib/install.log --single-version-externally-managed install_data --force

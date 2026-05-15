@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e22457202d213393a452.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "mycobot_interfaces__py",
+					"jsonFile" : "directory-mycobot_interfaces__py-04a89cfa9ae157ab7c65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/alberto/ros2_ws/build/mycobot_interfaces/mycobot_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mycobot_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mycobot_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mycobot_interfaces_egg-4e059e3273127cb9ae41.json",
+					"name" : "ament_cmake_python_build_mycobot_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_mycobot_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_mycobot_interfaces-49fe5e8b66194280794b.json",
+					"name" : "ament_cmake_python_symlink_mycobot_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces-5b1bf27a874d7beda8da.json",
+					"name" : "mycobot_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces__cpp-16e326bf093424c7605d.json",
+					"name" : "mycobot_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mycobot_interfaces__py::@d27958884c56b68cff07",
+					"jsonFile" : "target-mycobot_interfaces__py-dd85171289ea7a72aa6c.json",
+					"name" : "mycobot_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces__rosidl_generator_c-5f701686ce6188626070.json",
+					"name" : "mycobot_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces__rosidl_generator_py-f0312efef6c9d491e925.json",
+					"name" : "mycobot_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces__rosidl_typesupport_c-2b09311a512769b16572.json",
+					"name" : "mycobot_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces__rosidl_typesupport_c__pyext-864b241fa15e1aabefa0.json",
+					"name" : "mycobot_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces__rosidl_typesupport_cpp-fe78b5bc23f1ee689b75.json",
+					"name" : "mycobot_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces__rosidl_typesupport_fastrtps_c-4ffa1e4038efae6ac161.json",
+					"name" : "mycobot_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext-3f0a8367a09b806408a4.json",
+					"name" : "mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces__rosidl_typesupport_fastrtps_cpp-eb64c9854a0335c6239f.json",
+					"name" : "mycobot_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces__rosidl_typesupport_introspection_c-ae0a442ee2e1bb3532cc.json",
+					"name" : "mycobot_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces__rosidl_typesupport_introspection_c__pyext-69787bf68849e8c9513a.json",
+					"name" : "mycobot_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces__rosidl_typesupport_introspection_cpp-912e35329da6c0cffbe7.json",
+					"name" : "mycobot_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_interfaces_uninstall-a17cdb5d47c3338a7d9d.json",
+					"name" : "mycobot_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-474d530cc3a555a70bc5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/alberto/ros2_ws/build/mycobot_interfaces",
+		"source" : "/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

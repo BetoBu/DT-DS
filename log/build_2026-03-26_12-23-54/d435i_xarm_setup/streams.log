@@ -1,0 +1,108 @@
+[0.011s] Invoking command in '/home/alberto/ros2_ws/build/d435i_xarm_setup': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/alberto/ros2_ws/src/xarm_ros2/xarm_vision/d435i_xarm_setup -DCMAKE_INSTALL_PREFIX=/home/alberto/ros2_ws/install/d435i_xarm_setup
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.118s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.256s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.361s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.419s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.448s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.451s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.458s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.507s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.508s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.574s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.592s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.620s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.625s] -- Looking for pthread.h
+[0.686s] -- Looking for pthread.h - found
+[0.686s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.738s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.739s] -- Found Threads: TRUE  
+[0.778s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.911s] -- Found tf2_geometry_msgs: 0.25.19 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.922s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.924s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.924s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.928s] -- Found object_recognition_msgs: 2.0.0 (/opt/ros/humble/share/object_recognition_msgs/cmake)
+[0.970s] -- Found xarm_msgs: 0.0.0 (/home/alberto/ros2_ws/install/xarm_msgs/share/xarm_msgs/cmake)
+[0.980s] -- Found xarm_api: 0.0.0 (/home/alberto/ros2_ws/install/xarm_api/share/xarm_api/cmake)
+[0.986s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.039s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.040s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.040s] -- Configured cppcheck include dirs: 
+[1.040s] -- Configured cppcheck exclude dirs and/or files: 
+[1.040s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.040s] -- Configured cpplint exclude dirs and/or files: 
+[1.041s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.041s] -- Added test 'lint_cmake' to check CMake code style
+[1.041s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.042s] -- Added test 'uncrustify' to check C / C++ code style
+[1.042s] -- Configured uncrustify additional arguments: 
+[1.042s] -- Added test 'xmllint' to check XML markup files
+[1.043s] -- Configuring done
+[1.058s] -- Generating done
+[1.064s] -- Build files have been written to: /home/alberto/ros2_ws/build/d435i_xarm_setup
+[1.071s] Invoked command in '/home/alberto/ros2_ws/build/d435i_xarm_setup' returned '0': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/alberto/ros2_ws/src/xarm_ros2/xarm_vision/d435i_xarm_setup -DCMAKE_INSTALL_PREFIX=/home/alberto/ros2_ws/install/d435i_xarm_setup
+[1.072s] Invoking command in '/home/alberto/ros2_ws/build/d435i_xarm_setup': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/alberto/ros2_ws/build/d435i_xarm_setup -- -j16 -l16
+[1.105s] [ 16%] [32mBuilding CXX object CMakeFiles/findobj_grasp_xarm_api.dir/src/findobj_grasp_xarm_api.cpp.o[0m
+[1.107s] [ 33%] [32mBuilding CXX object CMakeFiles/tf_object_to_base.dir/src/tf_object_to_base.cpp.o[0m
+[1.109s] [ 50%] [32mBuilding CXX object CMakeFiles/findobj_grasp_moveit_planner.dir/src/findobj_grasp_moveit_planner.cpp.o[0m
+[5.611s] [ 66%] [32m[1mLinking CXX executable findobj_grasp_xarm_api[0m
+[6.084s] [ 83%] [32m[1mLinking CXX executable findobj_grasp_moveit_planner[0m
+[6.111s] [ 83%] Built target findobj_grasp_xarm_api
+[6.372s] [ 83%] Built target findobj_grasp_moveit_planner
+[7.036s] [100%] [32m[1mLinking CXX executable tf_object_to_base[0m
+[7.403s] [100%] Built target tf_object_to_base
+[7.413s] Invoked command in '/home/alberto/ros2_ws/build/d435i_xarm_setup' returned '0': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/alberto/ros2_ws/build/d435i_xarm_setup -- -j16 -l16
+[7.414s] Invoking command in '/home/alberto/ros2_ws/build/d435i_xarm_setup': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/alberto/ros2_ws/build/d435i_xarm_setup
+[7.419s] -- Install configuration: ""
+[7.419s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch
+[7.419s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/grasp_node_robot_moveit_planner.launch.py
+[7.419s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/d435i_findobj2d_robot_moveit_planner.launch.py
+[7.419s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/start_find_obj_2d.launch.py
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/d435i_robot_auto_calib.launch.py
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/grasp_node_robot_api.launch.py
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/d435i_findobj2d_robot_api.launch.py
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/publish_handeye_tf.launch.py
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//launch/d435i_robot_ork_linemod.launch.py
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//objects
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//objects/1.png
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//objects/2.png
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//config
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//config/xarm_rs_on_hand_calibration.calib
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//config/uf850_rs_on_hand_calibration.calib
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//config/extra_robot_api_params.yaml
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup//config/lite_rs_on_hand_calibration.calib
+[7.420s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/lib/d435i_xarm_setup/findobj_grasp_moveit_planner
+[7.421s] -- Set runtime path of "/home/alberto/ros2_ws/install/d435i_xarm_setup/lib/d435i_xarm_setup/findobj_grasp_moveit_planner" to ""
+[7.421s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/lib/d435i_xarm_setup/findobj_grasp_xarm_api
+[7.421s] -- Set runtime path of "/home/alberto/ros2_ws/install/d435i_xarm_setup/lib/d435i_xarm_setup/findobj_grasp_xarm_api" to ""
+[7.421s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/lib/d435i_xarm_setup/tf_object_to_base
+[7.423s] -- Set runtime path of "/home/alberto/ros2_ws/install/d435i_xarm_setup/lib/d435i_xarm_setup/tf_object_to_base" to ""
+[7.423s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/ament_index/resource_index/package_run_dependencies/d435i_xarm_setup
+[7.423s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/ament_index/resource_index/parent_prefix_path/d435i_xarm_setup
+[7.423s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/environment/ament_prefix_path.sh
+[7.423s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/environment/ament_prefix_path.dsv
+[7.423s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/environment/path.sh
+[7.423s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/environment/path.dsv
+[7.423s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/local_setup.bash
+[7.424s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/local_setup.sh
+[7.424s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/local_setup.zsh
+[7.424s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/local_setup.dsv
+[7.424s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/package.dsv
+[7.424s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/ament_index/resource_index/packages/d435i_xarm_setup
+[7.424s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/cmake/d435i_xarm_setupConfig.cmake
+[7.424s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/cmake/d435i_xarm_setupConfig-version.cmake
+[7.424s] -- Installing: /home/alberto/ros2_ws/install/d435i_xarm_setup/share/d435i_xarm_setup/package.xml
+[7.426s] Invoked command in '/home/alberto/ros2_ws/build/d435i_xarm_setup' returned '0': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/alberto/ros2_ws/build/d435i_xarm_setup

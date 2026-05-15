@@ -1,0 +1,39 @@
+[0.351s] Invoking command in '/home/alberto/ros2_ws/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/mycobot_mtc_demos -- -j16 -l16
+[0.392s] [  8%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o[0m
+[0.392s] [ 25%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_cartesian.dir/src/cartesian.cpp.o[0m
+[0.392s] [ 25%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_alternative_path_costs.dir/src/alternative_path_costs.cpp.o[0m
+[0.394s] [ 33%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_modular.dir/src/modular.cpp.o[0m
+[0.398s] [ 50%] Built target ik_clearance_cost_parameters
+[0.416s] [ 58%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_ik_clearance_cost.dir/src/ik_clearance_cost.cpp.o[0m
+[0.599s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/alternative_path_costs.cpp:16:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+[0.599s]    16 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+[0.599s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.599s] compilation terminated.
+[0.601s] gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_alternative_path_costs.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_alternative_path_costs.dir/src/alternative_path_costs.cpp.o] Error 1
+[0.601s] gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/mycobot_mtc_demos_alternative_path_costs.dir/all] Error 2
+[0.601s] gmake[1]: *** Waiting for unfinished jobs....
+[0.602s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/robot_model/robot_model.hpp: No such file or directory
+[0.602s]    19 | #include [01;31m[K<moveit/robot_model/robot_model.hpp>[m[K
+[0.602s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.602s] compilation terminated.
+[0.604s] gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o] Error 1
+[0.604s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/all] Error 2
+[0.630s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/ik_clearance_cost.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+[0.630s]    14 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+[0.630s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.630s] compilation terminated.
+[0.632s] gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_ik_clearance_cost.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_ik_clearance_cost.dir/src/ik_clearance_cost.cpp.o] Error 1
+[0.632s] gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/mycobot_mtc_demos_ik_clearance_cost.dir/all] Error 2
+[0.728s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/cartesian.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+[0.728s]    21 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+[0.728s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.729s] compilation terminated.
+[0.733s] gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_cartesian.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_cartesian.dir/src/cartesian.cpp.o] Error 1
+[0.734s] gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/mycobot_mtc_demos_cartesian.dir/all] Error 2
+[0.749s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/modular.cpp:28:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+[0.749s]    28 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+[0.749s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.749s] compilation terminated.
+[0.752s] gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_modular.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_modular.dir/src/modular.cpp.o] Error 1
+[0.752s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/mycobot_mtc_demos_modular.dir/all] Error 2
+[0.752s] gmake: *** [Makefile:146: all] Error 2

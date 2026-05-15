@@ -1,0 +1,165 @@
+[0.016s] Invoking command in '/home/alberto/ros2_ws/build/xarm_planner': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/alberto/ros2_ws/src/xarm_ros2/xarm_planner -DCMAKE_INSTALL_PREFIX=/home/alberto/ros2_ws/install/xarm_planner
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.196s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.202s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.205s] -- Detecting CXX compiler ABI info
+[0.277s] -- Detecting CXX compiler ABI info - done
+[0.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.287s] -- Detecting CXX compile features
+[0.287s] -- Detecting CXX compile features - done
+[0.290s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.405s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.472s] -- Found moveit: 2.5.9 (/opt/ros/humble/share/moveit/cmake)
+[0.474s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.659s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.691s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.694s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.700s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.708s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.720s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.876s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.913s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.941s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.943s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.012s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.029s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.058s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.064s] -- Found Threads: TRUE  
+[1.095s] -- Found rclcpp_lifecycle: 16.0.18 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.115s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.196s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.235s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.236s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.338s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.363s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.380s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.400s] -- Found xarm_msgs: 0.0.0 (/home/alberto/ros2_ws/install/xarm_msgs/share/xarm_msgs/cmake)
+[1.428s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.483s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.484s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.485s] -- Configured cppcheck include dirs: /home/alberto/ros2_ws/src/xarm_ros2/xarm_planner/include
+[1.485s] -- Configured cppcheck exclude dirs and/or files: 
+[1.486s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.486s] -- Configured cpplint exclude dirs and/or files: 
+[1.486s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.487s] -- Added test 'lint_cmake' to check CMake code style
+[1.487s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.488s] -- Added test 'uncrustify' to check C / C++ code style
+[1.488s] -- Configured uncrustify additional arguments: 
+[1.488s] -- Added test 'xmllint' to check XML markup files
+[1.489s] -- Configuring done
+[1.556s] -- Generating done
+[1.582s] -- Build files have been written to: /home/alberto/ros2_ws/build/xarm_planner
+[1.592s] Invoked command in '/home/alberto/ros2_ws/build/xarm_planner' returned '0': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/alberto/ros2_ws/src/xarm_ros2/xarm_planner -DCMAKE_INSTALL_PREFIX=/home/alberto/ros2_ws/install/xarm_planner
+[1.594s] Invoking command in '/home/alberto/ros2_ws/build/xarm_planner': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alberto/ros2_ws/build/xarm_planner -- -j16 -l16
+[1.633s] [  9%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_client_pose.dir/test/test_xarm_planner_client_pose.cpp.o[0m
+[1.633s] [  9%] [32mBuilding CXX object CMakeFiles/test_xarm_gripper_planner_client_joint.dir/test/test_xarm_gripper_planner_client_joint.cpp.o[0m
+[1.633s] [ 13%] [32mBuilding CXX object CMakeFiles/test_lite_gripper_realmove.dir/test/test_lite_gripper_realmove.cpp.o[0m
+[1.638s] [ 22%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_client_joint.dir/test/test_xarm_planner_client_joint.cpp.o[0m
+[1.638s] [ 22%] [32mBuilding CXX object CMakeFiles/xarm_planner.dir/src/xarm_planner.cpp.o[0m
+[4.931s] [ 27%] [32m[1mLinking CXX executable test_lite_gripper_realmove[0m
+[5.262s] [ 27%] Built target test_lite_gripper_realmove
+[5.319s] [ 31%] [32m[1mLinking CXX executable test_xarm_gripper_planner_client_joint[0m
+[5.372s] [ 36%] [32m[1mLinking CXX executable test_xarm_planner_client_pose[0m
+[5.545s] [ 36%] Built target test_xarm_gripper_planner_client_joint
+[5.591s] [ 36%] Built target test_xarm_planner_client_pose
+[6.506s] [ 40%] [32m[1mLinking CXX executable test_xarm_planner_client_joint[0m
+[6.680s] [ 40%] Built target test_xarm_planner_client_joint
+[7.571s] [ 45%] [32m[1mLinking CXX shared library libxarm_planner.so[0m
+[7.710s] [ 45%] Built target xarm_planner
+[7.723s] [ 50%] [32mBuilding CXX object CMakeFiles/xarm_gripper_planner_node.dir/src/xarm_gripper_planner_node.cpp.o[0m
+[7.723s] [ 54%] [32mBuilding CXX object CMakeFiles/test_dual_xarm_planner_api_joint.dir/test/test_dual_xarm_planner_api_joint.cpp.o[0m
+[7.724s] [ 59%] [32mBuilding CXX object CMakeFiles/xarm_planner_node.dir/src/xarm_planner_node.cpp.o[0m
+[7.724s] [ 63%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_joint.dir/test/test_xarm_planner_api_joint.cpp.o[0m
+[7.727s] [ 68%] [32mBuilding CXX object CMakeFiles/test_xarm_gripper_planner_api_joint.dir/test/test_xarm_gripper_planner_api_joint.cpp.o[0m
+[7.728s] [ 72%] [32mBuilding CXX object CMakeFiles/test_xarm_planner_api_pose.dir/test/test_xarm_planner_api_pose.cpp.o[0m
+[14.062s] [ 77%] [32m[1mLinking CXX executable test_xarm_gripper_planner_api_joint[0m
+[14.066s] [ 81%] [32m[1mLinking CXX executable test_xarm_planner_api_joint[0m
+[14.194s] [ 86%] [32m[1mLinking CXX executable test_dual_xarm_planner_api_joint[0m
+[14.234s] [ 90%] [32m[1mLinking CXX executable test_xarm_planner_api_pose[0m
+[14.331s] [ 90%] Built target test_xarm_gripper_planner_api_joint
+[14.335s] [ 90%] Built target test_xarm_planner_api_joint
+[14.446s] [ 90%] Built target test_dual_xarm_planner_api_joint
+[14.480s] [ 90%] Built target test_xarm_planner_api_pose
+[15.283s] [ 95%] [32m[1mLinking CXX executable xarm_gripper_planner_node[0m
+[15.533s] [ 95%] Built target xarm_gripper_planner_node
+[15.774s] [100%] [32m[1mLinking CXX executable xarm_planner_node[0m
+[16.086s] [100%] Built target xarm_planner_node
+[16.096s] Invoked command in '/home/alberto/ros2_ws/build/xarm_planner' returned '0': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alberto/ros2_ws/build/xarm_planner -- -j16 -l16
+[16.097s] Invoking command in '/home/alberto/ros2_ws/build/xarm_planner': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alberto/ros2_ws/build/xarm_planner
+[16.103s] -- Install configuration: ""
+[16.103s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/include
+[16.103s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/include/xarm_planner
+[16.103s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/include/xarm_planner/xarm_planner.h
+[16.104s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/lib/libxarm_planner.so
+[16.104s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_planner/lib/libxarm_planner.so" to ""
+[16.104s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/xarm_planner_node
+[16.105s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/xarm_planner_node" to ""
+[16.105s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/xarm_gripper_planner_node
+[16.106s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/xarm_gripper_planner_node" to ""
+[16.106s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_joint
+[16.106s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_joint" to ""
+[16.106s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_dual_xarm_planner_api_joint
+[16.106s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_dual_xarm_planner_api_joint" to ""
+[16.106s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_pose
+[16.106s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_api_pose" to ""
+[16.106s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_api_joint
+[16.107s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_api_joint" to ""
+[16.107s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_joint
+[16.107s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_joint" to ""
+[16.107s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_pose
+[16.108s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_xarm_planner_client_pose" to ""
+[16.108s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_client_joint
+[16.108s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_xarm_gripper_planner_client_joint" to ""
+[16.108s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_lite_gripper_realmove
+[16.109s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_planner/lib/xarm_planner/test_lite_gripper_realmove" to ""
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_fake.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_gripper_planner_client_joint.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/lite6_planner_fake.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_gazebo.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/test_move_group.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/_dual_robot_planner.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_gazebo.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_api_pose.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_fake.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/lite6_planner_realmove.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/_robot_planner.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/uf850_planner_fake.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_realmove.launch.py
+[16.109s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/lite6_planner_gazebo.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_gazebo.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/uf850_planner_gazebo.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_fake.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_planner_realmove.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_fake.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/test_dual_xarm_planner_api_joint.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_gripper_planner_api_joint.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_api_joint.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/xarm5_planner_realmove.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_client_pose.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/xarm6_planner_gazebo.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/xarm7_mirror_planner_realmove.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/test_lite_gripper_realmove.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/uf850_planner_realmove.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner//launch/test_xarm_planner_client_joint.launch.py
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/ament_index/resource_index/package_run_dependencies/xarm_planner
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/ament_index/resource_index/parent_prefix_path/xarm_planner
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner/environment/ament_prefix_path.sh
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner/environment/ament_prefix_path.dsv
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner/environment/path.sh
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner/environment/path.dsv
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner/local_setup.bash
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner/local_setup.sh
+[16.110s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner/local_setup.zsh
+[16.111s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner/local_setup.dsv
+[16.111s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner/package.dsv
+[16.111s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/ament_index/resource_index/packages/xarm_planner
+[16.111s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig.cmake
+[16.111s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner/cmake/xarm_plannerConfig-version.cmake
+[16.111s] -- Installing: /home/alberto/ros2_ws/install/xarm_planner/share/xarm_planner/package.xml
+[16.112s] Invoked command in '/home/alberto/ros2_ws/build/xarm_planner' returned '0': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alberto/ros2_ws/build/xarm_planner

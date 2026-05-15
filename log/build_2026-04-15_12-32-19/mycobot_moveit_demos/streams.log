@@ -1,0 +1,17 @@
+[0.365s] Invoking command in '/home/alberto/ros2_ws/build/mycobot_moveit_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/mycobot_moveit_demos -- -j16 -l16
+[0.463s] [ 25%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[0.464s] [ 50%] [32mBuilding CXX object CMakeFiles/plan_around_objects.dir/src/plan_around_objects.cpp.o[0m
+[0.464s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_moveit_demos/src/plan_around_objects.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface.hpp: No such file or directory
+[0.464s]    13 | #include [01;31m[K<moveit/move_group_interface/move_group_interface.hpp>[m[K
+[0.464s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.464s] compilation terminated.
+[0.464s] gmake[2]: *** [CMakeFiles/plan_around_objects.dir/build.make:76: CMakeFiles/plan_around_objects.dir/src/plan_around_objects.cpp.o] Error 1
+[0.464s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/plan_around_objects.dir/all] Error 2
+[0.464s] gmake[1]: *** Waiting for unfinished jobs....
+[0.638s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_moveit_demos/src/hello_moveit.cpp:16:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface.hpp: No such file or directory
+[0.639s]    16 | #include [01;31m[K<moveit/move_group_interface/move_group_interface.hpp>[m[K
+[0.639s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.639s] compilation terminated.
+[0.644s] gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+[0.644s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/hello_moveit.dir/all] Error 2
+[0.645s] gmake: *** [Makefile:146: all] Error 2

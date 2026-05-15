@@ -1,0 +1,3 @@
+[console_scripts]
+xarm_control_node = my_robot_controller.xarm_control:main
+

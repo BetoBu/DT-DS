@@ -1,0 +1,48 @@
+[0.028s] Invoking command in '/home/alberto/ros2_ws/build/mycobot_mtc_pick_place_demo': CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/mycobot_interfaces:/home/alberto/ros2_ws/install/xarm_planner:/home/alberto/ros2_ws/install/xarm_moveit_servo:/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/d435i_xarm_setup:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/mycobot_ros2:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_moveit_config:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/mbot_demo:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/mycobot_interfaces/lib:/home/alberto/ros2_ws/install/xarm_planner/lib:/home/alberto/ros2_ws/install/xarm_moveit_servo/lib:/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:/home/alberto/ros2_ws/install/xarm_msgs/lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/alberto/ros2_ws/build/mycobot_mtc_pick_place_demo -- -j16 -l16
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target get_planning_scene_client_node[0m
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target get_planning_scene_client[0m
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target object_segmentation[0m
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target cluster_extraction[0m
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target plane_segmentation[0m
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target normals_curvature_and_rsd_estimation[0m
+[0.113s] [ 12%] Built target get_planning_scene_client
+[0.114s] [ 25%] Built target get_planning_scene_client_node
+[0.130s] [ 37%] Built target normals_curvature_and_rsd_estimation
+[0.132s] [ 50%] Built target cluster_extraction
+[0.134s] [ 62%] Built target plane_segmentation
+[0.136s] [ 75%] Built target object_segmentation
+[0.145s] [ 81%] [32mBuilding CXX object CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o[0m
+[0.166s] [ 87%] [32mBuilding CXX object CMakeFiles/get_planning_scene_server.dir/src/get_planning_scene_server.cpp.o[0m
+[0.393s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/mtc_node.cpp:39:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+[0.393s]    39 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+[0.393s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.393s] compilation terminated.
+[0.394s] gmake[2]: *** [CMakeFiles/mtc_node.dir/build.make:76: CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o] Error 1
+[0.395s] gmake[1]: *** [CMakeFiles/Makefile2:336: CMakeFiles/mtc_node.dir/all] Error 2
+[0.395s] gmake[1]: *** Waiting for unfinished jobs....
+[5.865s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/get_planning_scene_server.cpp:[m[K In member function ‘[01m[Kvoid GetPlanningSceneServer::createService()[m[K’:
+[5.865s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/get_planning_scene_server.cpp:357:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGetPlanningSceneServer::create_service<mycobot_interfaces::srv::GetPlanningScene>(const char [27], std::_Bind_helper<false, void (GetPlanningSceneServer::*)(std::shared_ptr<mycobot_interfaces::srv::GetPlanningScene_Request_<std::allocator<void> > >, std::shared_ptr<mycobot_interfaces::srv::GetPlanningScene_Response_<std::allocator<void> > >), GetPlanningSceneServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, rclcpp::QoS&)[m[K’
+[5.865s]   357 |     service = [01;31m[Kthis->create_service<mycobot_interfaces::srv::GetPlanningScene>([m[K
+[5.865s]       |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.865s]   358 | [01;31m[K      "get_planning_scene_mycobot",[m[K
+[5.865s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                           
+[5.865s]   359 | [01;31m[K     std::bind(&GetPlanningSceneServer::handleService, this, std::placeholders::_1, std::placeholders::_2),[m[K
+[5.865s]       |      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.866s]   360 | [01;31m[K      qos[m[K
+[5.866s]       |       [01;31m[K~~~[m[K                                                                     
+[5.866s]   361 | [01;31m[K    )[m[K;
+[5.866s]       |     [01;31m[K~[m[K                                                                         
+[5.886s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.886s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[5.887s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.887s]                  from [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/get_planning_scene_server.cpp:34[m[K:
+[5.887s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[5.887s]   267 |   [01;36m[Kcreate_service[m[K(
+[5.887s]       |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[5.887s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.887s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/get_planning_scene_server.cpp:360:7:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqos[m[K’ (type ‘[01m[Krclcpp::QoS[m[K’) to type ‘[01m[Kconst rmw_qos_profile_t&[m[K’ {aka ‘[01m[Kconst rmw_qos_profile_s&[m[K’}
+[5.887s]   360 |       [01;36m[Kqos[m[K
+[5.887s]       |       [01;36m[K^~~[m[K
+[32.097s] gmake[2]: *** [CMakeFiles/get_planning_scene_server.dir/build.make:76: CMakeFiles/get_planning_scene_server.dir/src/get_planning_scene_server.cpp.o] Error 1
+[32.097s] gmake[1]: *** [CMakeFiles/Makefile2:310: CMakeFiles/get_planning_scene_server.dir/all] Error 2
+[32.097s] gmake: *** [Makefile:146: all] Error 2

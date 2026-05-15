@@ -1,0 +1,28 @@
+[0.032s] Invoking command in '/home/alberto/ros2_ws/build/mycobot_mtc_pick_place_demo': CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/mycobot_interfaces:/home/alberto/ros2_ws/install/xarm_planner:/home/alberto/ros2_ws/install/xarm_moveit_servo:/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/d435i_xarm_setup:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/mycobot_ros2:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_moveit_config:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/mbot_demo:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/mycobot_interfaces/lib:/home/alberto/ros2_ws/install/xarm_planner/lib:/home/alberto/ros2_ws/install/xarm_moveit_servo/lib:/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:/home/alberto/ros2_ws/install/xarm_msgs/lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/alberto/ros2_ws/build/mycobot_mtc_pick_place_demo -- -j16 -l16
+[0.103s] [  6%] [32mBuilding CXX object CMakeFiles/cluster_extraction.dir/src/cluster_extraction.cpp.o[0m
+[0.105s] [ 12%] [32mBuilding CXX object CMakeFiles/normals_curvature_and_rsd_estimation.dir/src/normals_curvature_and_rsd_estimation.cpp.o[0m
+[0.107s] [ 18%] [32mBuilding CXX object CMakeFiles/get_planning_scene_client.dir/src/get_planning_scene_client.cpp.o[0m
+[0.108s] [ 25%] [32mBuilding CXX object CMakeFiles/object_segmentation.dir/src/object_segmentation.cpp.o[0m
+[0.109s] [ 31%] [32mBuilding CXX object CMakeFiles/plane_segmentation.dir/src/plane_segmentation.cpp.o[0m
+[0.113s] [ 37%] [32mBuilding CXX object CMakeFiles/get_planning_scene_client_node.dir/src/get_planning_scene_client.cpp.o[0m
+[4.717s] [ 43%] [32m[1mLinking CXX executable get_planning_scene_client_node[0m
+[4.723s] [ 50%] [32m[1mLinking CXX shared library libget_planning_scene_client.so[0m
+[5.412s] [ 50%] Built target get_planning_scene_client
+[5.427s] [ 50%] Built target get_planning_scene_client_node
+[5.442s] [ 56%] [32mBuilding CXX object CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o[0m
+[5.708s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/mtc_node.cpp:39:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+[5.708s]    39 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+[5.708s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.709s] compilation terminated.
+[5.721s] gmake[2]: *** [CMakeFiles/mtc_node.dir/build.make:76: CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o] Error 1
+[5.721s] gmake[1]: *** [CMakeFiles/Makefile2:336: CMakeFiles/mtc_node.dir/all] Error 2
+[5.721s] gmake[1]: *** Waiting for unfinished jobs....
+[11.446s] [ 62%] [32m[1mLinking CXX shared library libcluster_extraction.so[0m
+[12.739s] [ 62%] Built target cluster_extraction
+[18.057s] [ 68%] [32m[1mLinking CXX shared library libnormals_curvature_and_rsd_estimation.so[0m
+[18.833s] [ 68%] Built target normals_curvature_and_rsd_estimation
+[21.024s] [ 75%] [32m[1mLinking CXX shared library libobject_segmentation.so[0m
+[21.938s] [ 75%] Built target object_segmentation
+[30.708s] [ 81%] [32m[1mLinking CXX shared library libplane_segmentation.so[0m
+[31.353s] [ 81%] Built target plane_segmentation
+[31.353s] gmake: *** [Makefile:146: all] Error 2

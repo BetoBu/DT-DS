@@ -1,0 +1,119 @@
+[0.010s] Invoking command in '/home/alberto/ros2_ws/build/xarm_controller': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/alberto/ros2_ws/src/xarm_ros2/xarm_controller -DCMAKE_INSTALL_PREFIX=/home/alberto/ros2_ws/install/xarm_controller
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.174s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.247s] -- Detecting CXX compiler ABI info - done
+[0.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.252s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.254s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.359s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.419s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.476s] -- Found hardware_interface: 2.53.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.503s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.506s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.512s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.530s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.671s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.672s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.689s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.735s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.737s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.747s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.749s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.756s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.773s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.773s] -- Looking for pthread.h
+[0.836s] -- Looking for pthread.h - found
+[0.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.912s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.914s] -- Found Threads: TRUE  
+[0.953s] -- Found rclcpp_action: 16.0.18 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.960s] -- Found controller_manager_msgs: 2.53.1 (/opt/ros/humble/share/controller_manager_msgs/cmake)
+[0.971s] -- Found xarm_msgs: 0.0.0 (/home/alberto/ros2_ws/install/xarm_msgs/share/xarm_msgs/cmake)
+[0.980s] -- Found xarm_api: 0.0.0 (/home/alberto/ros2_ws/install/xarm_api/share/xarm_api/cmake)
+[0.981s] -- Found xarm_sdk: 0.0.0 (/home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/cmake)
+[0.986s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.987s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.987s] -- Configured cppcheck include dirs: /home/alberto/ros2_ws/src/xarm_ros2/xarm_controller/include
+[0.987s] -- Configured cppcheck exclude dirs and/or files: 
+[0.988s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.988s] -- Configured cpplint exclude dirs and/or files: 
+[0.989s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.989s] -- Added test 'lint_cmake' to check CMake code style
+[0.990s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.990s] -- Added test 'uncrustify' to check C / C++ code style
+[0.990s] -- Configured uncrustify additional arguments: 
+[0.991s] -- Added test 'xmllint' to check XML markup files
+[0.992s] -- Configuring done
+[1.000s] -- Generating done
+[1.003s] -- Build files have been written to: /home/alberto/ros2_ws/build/xarm_controller
+[1.010s] Invoked command in '/home/alberto/ros2_ws/build/xarm_controller' returned '0': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/alberto/ros2_ws/src/xarm_ros2/xarm_controller -DCMAKE_INSTALL_PREFIX=/home/alberto/ros2_ws/install/xarm_controller
+[1.012s] Invoking command in '/home/alberto/ros2_ws/build/xarm_controller': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/alberto/ros2_ws/build/xarm_controller -- -j16 -l16
+[1.052s] [ 33%] [32mBuilding CXX object CMakeFiles/uf_robot_hardware.dir/src/hardware/uf_robot_fake_system_hardware.cpp.o[0m
+[1.052s] [ 66%] [32mBuilding CXX object CMakeFiles/uf_robot_hardware.dir/src/hardware/uf_robot_system_hardware.cpp.o[0m
+[7.140s] [100%] [32m[1mLinking CXX shared library libuf_robot_hardware.so[0m
+[7.897s] [100%] Built target uf_robot_hardware
+[7.906s] Invoked command in '/home/alberto/ros2_ws/build/xarm_controller' returned '0': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/alberto/ros2_ws/build/xarm_controller -- -j16 -l16
+[7.907s] Invoking command in '/home/alberto/ros2_ws/build/xarm_controller': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/alberto/ros2_ws/build/xarm_controller
+[7.920s] -- Install configuration: ""
+[7.920s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/uf_hardware_interface_plugins.xml
+[7.920s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/include
+[7.920s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/include/xarm_controller
+[7.921s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/include/xarm_controller/hardware
+[7.921s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/include/xarm_controller/hardware/uf_robot_fake_system_hardware.h
+[7.921s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/include/xarm_controller/hardware/uf_robot_system_hardware.h
+[7.921s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/include/xarm_controller/hardware/bak_uf_robot_fake_system_hardware.h
+[7.921s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/lib/libuf_robot_hardware.so
+[7.927s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_controller/lib/libuf_robot_hardware.so" to ""
+[7.927s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//launch
+[7.928s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//launch/xarm7_control_rviz_display.launch.py
+[7.928s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//launch/xarm5_control_rviz_display.launch.py
+[7.928s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//launch/_dual_ros2_control.launch.py
+[7.928s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//launch/xarm6_control_rviz_display.launch.py
+[7.928s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//launch/_robot_ros2_control.launch.py
+[7.928s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//launch/uf850_control_rviz_display.launch.py
+[7.928s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//launch/xarm7_mirror_control_rviz_display.launch.py
+[7.928s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//launch/lite6_control_rviz_display.launch.py
+[7.928s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//launch/lib
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//launch/lib/robot_controller_lib.py
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//launch/_ros2_control.launch.py
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//config
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//config/lite6_controllers.yaml
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//config/uf850_controllers.yaml
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//config/xarm7_controllers.yaml
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//config/xarm7_mirror_controllers.yaml
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//config/xarm6_controllers.yaml
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//config/xarm_gripper_controllers.yaml
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//config/xarm7_mirror_gripper_controllers.yaml
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//config/xarm5_controllers.yaml
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//config/uf850_gripper_controllers.yaml
+[7.929s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller//config/bio_gripper_controllers.yaml
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/environment/library_path.sh
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/environment/library_path.dsv
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/ament_index/resource_index/package_run_dependencies/xarm_controller
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/ament_index/resource_index/parent_prefix_path/xarm_controller
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/environment/ament_prefix_path.sh
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/environment/ament_prefix_path.dsv
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/environment/path.sh
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/environment/path.dsv
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/local_setup.bash
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/local_setup.sh
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/local_setup.zsh
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/local_setup.dsv
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/package.dsv
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/ament_index/resource_index/packages/xarm_controller
+[7.930s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/xarm_controller
+[7.931s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.931s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[7.931s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.931s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/cmake/xarm_controllerConfig.cmake
+[7.931s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/cmake/xarm_controllerConfig-version.cmake
+[7.931s] -- Installing: /home/alberto/ros2_ws/install/xarm_controller/share/xarm_controller/package.xml
+[7.933s] Invoked command in '/home/alberto/ros2_ws/build/xarm_controller' returned '0': AMENT_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/xarm_sdk/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/alberto/ros2_ws/build/xarm_controller

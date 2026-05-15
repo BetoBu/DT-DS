@@ -1,0 +1,29 @@
+[0.044s] Invoking command in '/home/alberto/ros2_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_moveit_config:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/xarm_sdk -- -j16 -l16
+[0.734s] [  6%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/connect.cc.o[0m
+[0.735s] [  9%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd_ser.cc.o[0m
+[0.735s] [ 12%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd_tcp.cc.o[0m
+[0.735s] [  6%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/common/queue_memcpy.cc.o[0m
+[0.735s] [ 21%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/port/socket.cc.o[0m
+[0.735s] [ 18%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/serial.cc.o[0m
+[0.735s] [ 21%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/list_ports/list_ports_linux.cc.o[0m
+[0.735s] [ 25%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_api.cc.o[0m
+[0.735s] [ 31%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/os/network.cc.o[0m
+[0.735s] [ 31%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/serial/impl/unix.cc.o[0m
+[0.735s] [ 37%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/instruction/uxbus_cmd.cc.o[0m
+[0.735s] [ 37%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/port/ser.cc.o[0m
+[0.735s] [ 40%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_events.cc.o[0m
+[0.736s] [ 43%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/core/report_data.cc.o[0m
+[0.736s] [ 46%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_bio.cc.o[0m
+[0.736s] [ 50%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_ft_sensor.cc.o[0m
+[0.736s] [ 53%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_gpio.cc.o[0m
+[0.736s] [ 56%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_gripper.cc.o[0m
+[0.736s] [ 59%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_linear_motor.cc.o[0m
+[0.736s] [ 62%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_modbus_tcp.cc.o[0m
+[0.736s] [ 65%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_motion.cc.o[0m
+[0.736s] [ 68%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_params.cc.o[0m
+[0.736s] [ 71%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_record.cc.o[0m
+[0.736s] [ 75%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_report.cc.o[0m
+[0.737s] [ 78%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_robotiq.cc.o[0m
+[0.737s] [ 81%] [32mBuilding CXX object CMakeFiles/xarm_cxx_sdk.dir/cxx/src/xarm/wrapper/xarm_servo.cc.o[0m
+[2.742s] [ 84%] [32m[1mLinking CXX shared library libxarm_cxx_sdk.so[0m
+[2.891s] [100%] Built target xarm_cxx_sdk

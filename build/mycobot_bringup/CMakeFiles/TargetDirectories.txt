@@ -1,0 +1,9 @@
+/home/alberto/ros2_ws/build/mycobot_bringup/CMakeFiles/uninstall.dir
+/home/alberto/ros2_ws/build/mycobot_bringup/CMakeFiles/mycobot_bringup_uninstall.dir
+/home/alberto/ros2_ws/build/mycobot_bringup/CMakeFiles/test.dir
+/home/alberto/ros2_ws/build/mycobot_bringup/CMakeFiles/edit_cache.dir
+/home/alberto/ros2_ws/build/mycobot_bringup/CMakeFiles/rebuild_cache.dir
+/home/alberto/ros2_ws/build/mycobot_bringup/CMakeFiles/list_install_components.dir
+/home/alberto/ros2_ws/build/mycobot_bringup/CMakeFiles/install.dir
+/home/alberto/ros2_ws/build/mycobot_bringup/CMakeFiles/install/local.dir
+/home/alberto/ros2_ws/build/mycobot_bringup/CMakeFiles/install/strip.dir

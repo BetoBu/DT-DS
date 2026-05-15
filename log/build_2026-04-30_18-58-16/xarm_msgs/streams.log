@@ -1,0 +1,35 @@
+[0.077s] Invoking command in '/home/alberto/ros2_ws/build/xarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble /usr/bin/cmake /home/alberto/ros2_ws/src/xarm_ros2/xarm_msgs -DCMAKE_INSTALL_PREFIX=/home/alberto/ros2_ws/install/xarm_msgs
+[0.613s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.613s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.613s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.613s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.613s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.613s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.614s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.614s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.615s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.255s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.807s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.990s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.016s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.049s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.049s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.125s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.128s] -- Added test 'lint_cmake' to check CMake code style
+[2.130s] -- Added test 'xmllint' to check XML markup files
+[2.136s] -- Configuring done
+[2.294s] -- Generating done
+[2.311s] -- Build files have been written to: /home/alberto/ros2_ws/build/xarm_msgs
+[2.323s] Invoked command in '/home/alberto/ros2_ws/build/xarm_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble /usr/bin/cmake /home/alberto/ros2_ws/src/xarm_ros2/xarm_msgs -DCMAKE_INSTALL_PREFIX=/home/alberto/ros2_ws/install/xarm_msgs
+[2.324s] Invoking command in '/home/alberto/ros2_ws/build/xarm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/xarm_msgs -- -j16 -l16
+[2.403s] failed to create symbolic link '/home/alberto/ros2_ws/build/xarm_msgs/ament_cmake_python/xarm_msgs/xarm_msgs' because existing path cannot be removed: Is a directory
+[2.404s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_xarm_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_xarm_msgs] Error 1
+[2.404s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_xarm_msgs.dir/all] Error 2
+[2.404s] gmake[1]: *** Waiting for unfinished jobs....
+[2.413s] [  0%] Built target xarm_msgs__cpp
+[2.414s] [35m[1mConsolidate compiler generated dependencies of target xarm_msgs__rosidl_generator_c[0m
+[2.440s] [ 12%] Built target xarm_msgs__rosidl_generator_c
+[2.440s] gmake: *** [Makefile:146: all] Error 2

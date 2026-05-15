@@ -1,0 +1,5 @@
+/home/alberto/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/config/ros_gz_bridge.yaml
+/home/alberto/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/launch/Respaldo - mycobot.gazebo.launch.py
+/home/alberto/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/launch/dos_robots.launch.py
+/home/alberto/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/launch/double_robot_gazebo.launch.py
+/home/alberto/ros2_ws/install/mycobot_gazebo/share/mycobot_gazebo/launch/mycobot.gazebo.launch.py

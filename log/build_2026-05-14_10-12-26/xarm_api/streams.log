@@ -1,0 +1,76 @@
+[0.037s] Invoking command in '/home/alberto/ros2_ws/build/xarm_api': CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/xarm_planner:/home/alberto/ros2_ws/install/xarm_moveit_servo:/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/d435i_xarm_setup:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/mycobot_ros2:/home/alberto/ros2_ws/install/mycobot_interfaces:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_moveit_config:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_sdk/lib:/home/alberto/ros2_ws/install/xarm_msgs/lib:/home/alberto/ros2_ws/install/xarm_planner/lib:/home/alberto/ros2_ws/install/xarm_moveit_servo/lib:/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin/lib:/home/alberto/ros2_ws/install/mycobot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/alberto/ros2_ws/build/xarm_api -- -j16 -l16
+[0.385s] [  7%] [32mBuilding CXX object CMakeFiles/test_robot_states.dir/test/test_robot_states.cpp.o[0m
+[0.385s] [ 15%] [32mBuilding CXX object CMakeFiles/xarm_ros_client.dir/src/xarm_ros_client.cpp.o[0m
+[0.389s] [ 23%] [32mBuilding CXX object CMakeFiles/xarm_ros_driver.dir/src/xarm_driver_service.cpp.o[0m
+[0.390s] [ 30%] [32mBuilding CXX object CMakeFiles/xarm_ros_driver.dir/src/xarm_driver.cpp.o[0m
+[9.951s] [ 38%] [32m[1mLinking CXX executable test_robot_states[0m
+[10.541s] [ 38%] Built target test_robot_states
+[16.392s] [ 46%] [32m[1mLinking CXX shared library libxarm_ros_client.so[0m
+[17.365s] [ 46%] Built target xarm_ros_client
+[17.398s] [ 53%] [32mBuilding CXX object CMakeFiles/test_xarm_velo_move.dir/test/test_xarm_velo_move.cpp.o[0m
+[17.398s] [ 61%] [32mBuilding CXX object CMakeFiles/test_xarm_ros_client.dir/test/test_xarm_ros_client.cpp.o[0m
+[21.063s] [ 69%] [32m[1mLinking CXX executable test_xarm_velo_move[0m
+[21.065s] [ 76%] [32m[1mLinking CXX executable test_xarm_ros_client[0m
+[21.512s] [ 76%] Built target test_xarm_velo_move
+[21.527s] [ 76%] Built target test_xarm_ros_client
+[24.385s] [ 84%] [32m[1mLinking CXX shared library libxarm_ros_driver.so[0m
+[26.229s] [ 84%] Built target xarm_ros_driver
+[26.301s] [ 92%] [32mBuilding CXX object CMakeFiles/xarm_driver_node.dir/src/xarm_driver_node.cpp.o[0m
+[29.423s] [100%] [32m[1mLinking CXX executable xarm_driver_node[0m
+[30.051s] [100%] Built target xarm_driver_node
+[30.063s] Invoked command in '/home/alberto/ros2_ws/build/xarm_api' returned '0': CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/xarm_planner:/home/alberto/ros2_ws/install/xarm_moveit_servo:/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/d435i_xarm_setup:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/mycobot_ros2:/home/alberto/ros2_ws/install/mycobot_interfaces:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_moveit_config:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_sdk/lib:/home/alberto/ros2_ws/install/xarm_msgs/lib:/home/alberto/ros2_ws/install/xarm_planner/lib:/home/alberto/ros2_ws/install/xarm_moveit_servo/lib:/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin/lib:/home/alberto/ros2_ws/install/mycobot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/alberto/ros2_ws/build/xarm_api -- -j16 -l16
+[30.079s] Invoking command in '/home/alberto/ros2_ws/build/xarm_api': CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/xarm_planner:/home/alberto/ros2_ws/install/xarm_moveit_servo:/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/d435i_xarm_setup:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/mycobot_ros2:/home/alberto/ros2_ws/install/mycobot_interfaces:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_moveit_config:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_sdk/lib:/home/alberto/ros2_ws/install/xarm_msgs/lib:/home/alberto/ros2_ws/install/xarm_planner/lib:/home/alberto/ros2_ws/install/xarm_moveit_servo/lib:/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin/lib:/home/alberto/ros2_ws/install/mycobot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/alberto/ros2_ws/build/xarm_api
+[30.161s] -- Install configuration: ""
+[30.163s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/environment/library_path.sh
+[30.164s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/environment/library_path.dsv
+[30.164s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/include
+[30.165s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/include/xarm_api
+[30.166s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/include/xarm_api/xarm_driver.h
+[30.167s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/include/xarm_api/xarm_msgs.h
+[30.168s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/include/xarm_api/xarm_ros_client.h
+[30.168s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/include/xarm_api/visibility_control.h
+[30.169s] -- Installing: /home/alberto/ros2_ws/install/xarm_api/lib/libxarm_ros_driver.so
+[30.201s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_api/lib/libxarm_ros_driver.so" to ""
+[30.205s] -- Installing: /home/alberto/ros2_ws/install/xarm_api/lib/libxarm_ros_client.so
+[30.215s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_api/lib/libxarm_ros_client.so" to ""
+[30.216s] -- Installing: /home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/xarm_driver_node
+[30.217s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/xarm_driver_node" to ""
+[30.218s] -- Installing: /home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/test_xarm_ros_client
+[30.218s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/test_xarm_ros_client" to ""
+[30.219s] -- Installing: /home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/test_xarm_velo_move
+[30.219s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/test_xarm_velo_move" to ""
+[30.220s] -- Installing: /home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/test_robot_states
+[30.223s] -- Set runtime path of "/home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/test_robot_states" to ""
+[30.223s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch
+[30.223s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/lite6_driver.launch.py
+[30.223s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/_robot_driver.launch.py
+[30.223s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/xarm6_driver.launch.py
+[30.223s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/__pycache__
+[30.223s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/__pycache__/xarm6_driver.launch.cpython-310.pyc
+[30.223s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/__pycache__/_robot_driver.launch.cpython-310.pyc
+[30.224s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/xarm7_driver.launch.py
+[30.224s] -- Installing: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/triple_lite6_driver.launch.py
+[30.224s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/uf850_driver.launch.py
+[30.224s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/xarm5_driver.launch.py
+[30.224s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/lib
+[30.224s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/lib/robot_api_lib.py
+[30.224s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//config
+[30.224s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//config/xarm_params.yaml
+[30.224s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/ament_index/resource_index/package_run_dependencies/xarm_api
+[30.224s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/ament_index/resource_index/parent_prefix_path/xarm_api
+[30.224s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/environment/ament_prefix_path.sh
+[30.224s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/environment/ament_prefix_path.dsv
+[30.224s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/environment/path.sh
+[30.225s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/environment/path.dsv
+[30.225s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/local_setup.bash
+[30.225s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/local_setup.sh
+[30.225s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/local_setup.zsh
+[30.225s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/local_setup.dsv
+[30.225s] -- Installing: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/package.dsv
+[30.225s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/ament_index/resource_index/packages/xarm_api
+[30.225s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/cmake/ament_cmake_export_libraries-extras.cmake
+[30.225s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.225s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/cmake/xarm_apiConfig.cmake
+[30.226s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/cmake/xarm_apiConfig-version.cmake
+[30.226s] -- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/package.xml
+[30.227s] Invoked command in '/home/alberto/ros2_ws/build/xarm_api' returned '0': CMAKE_PREFIX_PATH=/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/xarm_planner:/home/alberto/ros2_ws/install/xarm_moveit_servo:/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/d435i_xarm_setup:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/mycobot_ros2:/home/alberto/ros2_ws/install/mycobot_interfaces:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_moveit_config:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/alberto/ros2_ws/install/xarm_sdk/lib:/home/alberto/ros2_ws/install/xarm_msgs/lib:/home/alberto/ros2_ws/install/xarm_planner/lib:/home/alberto/ros2_ws/install/xarm_moveit_servo/lib:/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin/lib:/home/alberto/ros2_ws/install/mycobot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/alberto/ros2_ws/build/xarm_api

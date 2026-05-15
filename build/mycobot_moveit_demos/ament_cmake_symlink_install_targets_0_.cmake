@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/alberto/ros2_ws/build/mycobot_moveit_demos/hello_moveit" "/home/alberto/ros2_ws/build/mycobot_moveit_demos/plan_around_objects" "TARGETS" "hello_moveit" "plan_around_objects" "DESTINATION" "lib/mycobot_moveit_demos")

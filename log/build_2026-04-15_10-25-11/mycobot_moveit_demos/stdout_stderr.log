@@ -1,0 +1,16 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/plan_around_objects.dir/src/plan_around_objects.cpp.o[0m
+[01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_moveit_demos/src/plan_around_objects.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface.hpp: No such file or directory
+   13 | #include [01;31m[K<moveit/move_group_interface/move_group_interface.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/plan_around_objects.dir/build.make:76: CMakeFiles/plan_around_objects.dir/src/plan_around_objects.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/plan_around_objects.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_moveit_demos/src/hello_moveit.cpp:16:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface.hpp: No such file or directory
+   16 | #include [01;31m[K<moveit/move_group_interface/move_group_interface.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

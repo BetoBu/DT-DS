@@ -1,0 +1,1 @@
+Invoking command in '/home/alberto/ros2_ws/build/mycobot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/mycobot_system_tests -- -j16 -l16

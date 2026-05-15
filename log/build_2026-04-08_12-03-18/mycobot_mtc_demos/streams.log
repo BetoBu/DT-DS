@@ -1,0 +1,103 @@
+[0.341s] Invoking command in '/home/alberto/ros2_ws/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake /home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos -DCMAKE_INSTALL_PREFIX=/home/alberto/ros2_ws/install/mycobot_mtc_demos
+[0.380s] -- The C compiler identification is GNU 11.4.0
+[0.444s] -- The CXX compiler identification is GNU 11.4.0
+[0.468s] -- Detecting C compiler ABI info
+[0.506s] -- Detecting C compiler ABI info - done
+[0.506s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.506s] -- Detecting C compile features
+[0.506s] -- Detecting C compile features - done
+[0.507s] -- Detecting CXX compiler ABI info
+[0.561s] -- Detecting CXX compiler ABI info - done
+[0.565s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.565s] -- Detecting CXX compile features
+[0.566s] -- Detecting CXX compile features - done
+[0.567s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.698s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.819s] -- Found generate_parameter_library: 0.6.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[0.826s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.882s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.890s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.903s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.921s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.985s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.987s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.051s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.078s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.111s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.118s] -- Looking for pthread.h
+[1.171s] -- Looking for pthread.h - found
+[1.171s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.220s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.221s] -- Found Threads: TRUE  
+[1.270s] -- Found rclcpp_lifecycle: 16.0.18 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.286s] -- Found moveit_common: 2.5.9 (/opt/ros/humble/share/moveit_common/cmake)
+[1.372s] -- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+[1.401s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.433s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.540s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.644s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.644s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.848s] -- Found moveit_ros_planning: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[1.852s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.871s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.875s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.886s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.904s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.926s] -- Found moveit_task_constructor_core: 0.1.3 (/opt/ros/humble/share/moveit_task_constructor_core/cmake)
+[1.982s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.997s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.997s] -- Configured cppcheck include dirs: 
+[1.997s] -- Configured cppcheck exclude dirs and/or files: 
+[1.997s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.998s] -- Added test 'lint_cmake' to check CMake code style
+[1.998s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.999s] -- Added test 'uncrustify' to check C / C++ code style
+[1.999s] -- Configured uncrustify additional arguments: 
+[2.001s] -- Added test 'xmllint' to check XML markup files
+[2.001s] -- Configuring done
+[2.059s] -- Generating done
+[2.078s] -- Build files have been written to: /home/alberto/ros2_ws/build/mycobot_mtc_demos
+[2.090s] Invoked command in '/home/alberto/ros2_ws/build/mycobot_mtc_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake /home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos -DCMAKE_INSTALL_PREFIX=/home/alberto/ros2_ws/install/mycobot_mtc_demos
+[2.091s] Invoking command in '/home/alberto/ros2_ws/build/mycobot_mtc_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/mycobot_mtc_demos -- -j16 -l16
+[2.140s] [  8%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_cartesian.dir/src/cartesian.cpp.o[0m
+[2.141s] [ 16%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_alternative_path_costs.dir/src/alternative_path_costs.cpp.o[0m
+[2.144s] [ 41%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o[0m
+[2.144s] [ 41%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_modular.dir/src/modular.cpp.o[0m
+[2.144s] [ 41%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/alberto/ros2_ws/build/mycobot_mtc_demos/include/mycobot_mtc_demos/ik_clearance_cost_parameters.hpp /home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/ik_clearance_cost_parameters.yaml `[0m
+[2.373s] [ 50%] [34m[1mCreating deprecated header file /home/alberto/ros2_ws/build/mycobot_mtc_demos/include/ik_clearance_cost_parameters.hpp[0m
+[2.385s] [ 50%] Built target ik_clearance_cost_parameters
+[2.403s] [ 58%] [32mBuilding CXX object CMakeFiles/mycobot_mtc_demos_ik_clearance_cost.dir/src/ik_clearance_cost.cpp.o[0m
+[2.404s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/alternative_path_costs.cpp:16:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+[2.404s]    16 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+[2.404s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.404s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/fallbacks_move_to.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/robot_model/robot_model.hpp: No such file or directory
+[2.404s]    19 | #include [01;31m[K<moveit/robot_model/robot_model.hpp>[m[K
+[2.404s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.404s] compilation terminated.
+[2.404s] compilation terminated.
+[2.406s] gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_alternative_path_costs.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_alternative_path_costs.dir/src/alternative_path_costs.cpp.o] Error 1
+[2.406s] gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/mycobot_mtc_demos_alternative_path_costs.dir/all] Error 2
+[2.406s] gmake[1]: *** Waiting for unfinished jobs....
+[2.406s] gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/src/fallbacks_move_to.cpp.o] Error 1
+[2.406s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/mycobot_mtc_demos_fallbacks_move_to.dir/all] Error 2
+[2.615s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/cartesian.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+[2.615s]    21 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+[2.615s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.615s] compilation terminated.
+[2.617s] gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_cartesian.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_cartesian.dir/src/cartesian.cpp.o] Error 1
+[2.617s] gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/mycobot_mtc_demos_cartesian.dir/all] Error 2
+[2.622s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/ik_clearance_cost.cpp:14:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+[2.622s]    14 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+[2.622s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.623s] compilation terminated.
+[2.624s] gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_ik_clearance_cost.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_ik_clearance_cost.dir/src/ik_clearance_cost.cpp.o] Error 1
+[2.624s] gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/mycobot_mtc_demos_ik_clearance_cost.dir/all] Error 2
+[2.641s] [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_demos/src/modular.cpp:28:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+[2.641s]    28 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+[2.641s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.641s] compilation terminated.
+[2.643s] gmake[2]: *** [CMakeFiles/mycobot_mtc_demos_modular.dir/build.make:76: CMakeFiles/mycobot_mtc_demos_modular.dir/src/modular.cpp.o] Error 1
+[2.644s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/mycobot_mtc_demos_modular.dir/all] Error 2
+[2.644s] gmake: *** [Makefile:146: all] Error 2
+[2.651s] Invoked command in '/home/alberto/ros2_ws/build/mycobot_mtc_demos' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/mycobot_mtc_demos -- -j16 -l16

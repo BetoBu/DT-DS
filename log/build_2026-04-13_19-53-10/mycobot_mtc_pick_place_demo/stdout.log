@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target get_planning_scene_client_node[0m
+[35m[1mConsolidate compiler generated dependencies of target get_planning_scene_client[0m
+[35m[1mConsolidate compiler generated dependencies of target object_segmentation[0m
+[35m[1mConsolidate compiler generated dependencies of target cluster_extraction[0m
+[35m[1mConsolidate compiler generated dependencies of target plane_segmentation[0m
+[35m[1mConsolidate compiler generated dependencies of target normals_curvature_and_rsd_estimation[0m
+[ 12%] Built target get_planning_scene_client
+[ 25%] Built target get_planning_scene_client_node
+[ 37%] Built target normals_curvature_and_rsd_estimation
+[ 50%] Built target cluster_extraction
+[ 62%] Built target plane_segmentation
+[ 75%] Built target object_segmentation
+[ 81%] [32mBuilding CXX object CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/get_planning_scene_server.dir/src/get_planning_scene_server.cpp.o[0m

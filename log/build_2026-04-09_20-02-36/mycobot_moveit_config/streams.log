@@ -1,0 +1,39 @@
+[0.192s] Invoking command in '/home/alberto/ros2_ws/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/mycobot_moveit_config -- -j16 -l16
+[0.412s] Invoked command in '/home/alberto/ros2_ws/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/mycobot_moveit_config -- -j16 -l16
+[0.413s] Invoking command in '/home/alberto/ros2_ws/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake --install /home/alberto/ros2_ws/build/mycobot_moveit_config
+[0.478s] -- Install configuration: ""
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/stomp_planning.yaml
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/ompl_planning.yaml
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/initial_positions.yaml
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/pilz_cartesian_limits.yaml
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/ros2_controllers.yaml
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/ros2_controllers_template.yaml
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/moveit_controllers.yaml
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/joint_limits.yaml
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/mycobot_280.srdf
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/config/mycobot_280/kinematics.yaml
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch
+[0.478s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/move_group.launch.py
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/launch/load_ros2_controllers.launch.py
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/rviz
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/rviz/move_group.rviz
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/.setup_assistant
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/ament_index/resource_index/package_run_dependencies/mycobot_moveit_config
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/ament_index/resource_index/parent_prefix_path/mycobot_moveit_config
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/ament_prefix_path.sh
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/ament_prefix_path.dsv
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/path.sh
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/path.dsv
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.bash
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.sh
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.zsh
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.dsv
+[0.479s] -- Installing: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.dsv
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/ament_index/resource_index/packages/mycobot_moveit_config
+[0.479s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/cmake/mycobot_moveit_configConfig.cmake
+[0.480s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/cmake/mycobot_moveit_configConfig-version.cmake
+[0.480s] -- Up-to-date: /home/alberto/ros2_ws/install/mycobot_moveit_config/share/mycobot_moveit_config/package.xml
+[0.632s] Invoked command in '/home/alberto/ros2_ws/build/mycobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake --install /home/alberto/ros2_ws/build/mycobot_moveit_config

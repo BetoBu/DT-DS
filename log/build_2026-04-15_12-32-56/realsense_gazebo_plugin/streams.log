@@ -1,0 +1,2 @@
+[0.353s] Invoking command in '/home/alberto/ros2_ws/build/realsense_gazebo_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/realsense_gazebo_plugin -- -j16 -l16
+[0.415s] [100%] Built target realsense_gazebo_plugin

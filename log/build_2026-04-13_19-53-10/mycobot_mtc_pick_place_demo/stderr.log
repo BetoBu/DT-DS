@@ -1,0 +1,33 @@
+[01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/mtc_node.cpp:39:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/planning_scene/planning_scene.hpp: No such file or directory
+   39 | #include [01;31m[K<moveit/planning_scene/planning_scene.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mtc_node.dir/build.make:76: CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:336: CMakeFiles/mtc_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/get_planning_scene_server.cpp:[m[K In member function ‘[01m[Kvoid GetPlanningSceneServer::createService()[m[K’:
+[01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/get_planning_scene_server.cpp:357:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGetPlanningSceneServer::create_service<mycobot_interfaces::srv::GetPlanningScene>(const char [27], std::_Bind_helper<false, void (GetPlanningSceneServer::*)(std::shared_ptr<mycobot_interfaces::srv::GetPlanningScene_Request_<std::allocator<void> > >, std::shared_ptr<mycobot_interfaces::srv::GetPlanningScene_Response_<std::allocator<void> > >), GetPlanningSceneServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, rclcpp::QoS&)[m[K’
+  357 |     service = [01;31m[Kthis->create_service<mycobot_interfaces::srv::GetPlanningScene>([m[K
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  358 | [01;31m[K      "get_planning_scene_mycobot",[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                           
+  359 | [01;31m[K     std::bind(&GetPlanningSceneServer::handleService, this, std::placeholders::_1, std::placeholders::_2),[m[K
+      |      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  360 | [01;31m[K      qos[m[K
+      |       [01;31m[K~~~[m[K                                                                     
+  361 | [01;31m[K    )[m[K;
+      |     [01;31m[K~[m[K                                                                         
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/get_planning_scene_server.cpp:34[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/alberto/ros2_ws/src/mycobot_ros2/mycobot_mtc_pick_place_demo/src/get_planning_scene_server.cpp:360:7:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqos[m[K’ (type ‘[01m[Krclcpp::QoS[m[K’) to type ‘[01m[Kconst rmw_qos_profile_t&[m[K’ {aka ‘[01m[Kconst rmw_qos_profile_s&[m[K’}
+  360 |       [01;36m[Kqos[m[K
+      |       [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/get_planning_scene_server.dir/build.make:76: CMakeFiles/get_planning_scene_server.dir/src/get_planning_scene_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:310: CMakeFiles/get_planning_scene_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

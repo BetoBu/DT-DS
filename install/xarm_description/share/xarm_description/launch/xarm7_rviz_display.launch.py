@@ -1,0 +1,1 @@
+/home/alberto/ros2_ws/src/xarm_ros2/xarm_description/launch/xarm7_rviz_display.launch.py

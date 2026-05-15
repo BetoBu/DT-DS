@@ -1,0 +1,49 @@
+[0.099s] Invoking command in '/home/alberto/ros2_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/xarm_sdk -- -j16 -l16
+[0.429s] [100%] Built target xarm_cxx_sdk
+[0.435s] Invoked command in '/home/alberto/ros2_ws/build/xarm_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/xarm_sdk -- -j16 -l16
+[0.440s] Invoking command in '/home/alberto/ros2_ws/build/xarm_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble /usr/bin/cmake --install /home/alberto/ros2_ws/build/xarm_sdk
+[0.506s] -- Install configuration: ""
+[0.506s] -- Execute custom install script
+[0.506s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/environment/library_path.sh
+[0.506s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/environment/library_path.dsv
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/serial/impl/unix.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/serial/impl/win.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/serial/serial.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/serial/v8stdint.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/common/crc16.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/common/data_type.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/common/queue_memcpy.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/connect.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/debug/debug_print.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/servo3_config.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_config.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_ser.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/instruction/uxbus_cmd_tcp.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/os/bak/thread.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/os/network.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/port/ser.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/port/socket.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/report_data.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/core/xarm_config.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/wrapper/common/timer.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/wrapper/common/utils.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/cxx/include/xarm/wrapper/xarm_api.h
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/lib/libxarm_cxx_sdk.so
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/ament_index/resource_index/package_run_dependencies/xarm_sdk
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/ament_index/resource_index/parent_prefix_path/xarm_sdk
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.sh
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/environment/ament_prefix_path.dsv
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/environment/path.sh
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/environment/path.dsv
+[0.507s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/local_setup.bash
+[0.508s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/local_setup.sh
+[0.508s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/local_setup.zsh
+[0.508s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/local_setup.dsv
+[0.508s] -- Symlinking: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/package.dsv
+[0.508s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/ament_index/resource_index/packages/xarm_sdk
+[0.508s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[0.508s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.508s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig.cmake
+[0.508s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/cmake/xarm_sdkConfig-version.cmake
+[0.508s] -- Up-to-date symlink: /home/alberto/ros2_ws/install/xarm_sdk/share/xarm_sdk/package.xml

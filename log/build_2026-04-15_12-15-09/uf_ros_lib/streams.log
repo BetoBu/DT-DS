@@ -1,0 +1,18 @@
+[1.148s] Invoking command in '/home/alberto/ros2_ws/build/uf_ros_lib': PYTHONPATH=/home/alberto/ros2_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alberto/ros2_ws/build/uf_ros_lib/build --no-deps symlink_data --force
+[1.566s] running develop
+[1.888s] running egg_info
+[1.888s] writing uf_ros_lib.egg-info/PKG-INFO
+[1.889s] writing dependency_links to uf_ros_lib.egg-info/dependency_links.txt
+[1.889s] writing entry points to uf_ros_lib.egg-info/entry_points.txt
+[1.889s] writing requirements to uf_ros_lib.egg-info/requires.txt
+[1.889s] writing top-level names to uf_ros_lib.egg-info/top_level.txt
+[1.893s] reading manifest file 'uf_ros_lib.egg-info/SOURCES.txt'
+[1.895s] writing manifest file 'uf_ros_lib.egg-info/SOURCES.txt'
+[1.897s] running build_ext
+[1.897s] Creating /home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf-ros-lib.egg-link (link to .)
+[1.898s] 
+[1.898s] Installed /home/alberto/ros2_ws/build/uf_ros_lib
+[1.900s] running symlink_data
+[1.900s] symbolically linking /home/alberto/ros2_ws/build/uf_ros_lib/resource/uf_ros_lib -> /home/alberto/ros2_ws/install/uf_ros_lib/share/ament_index/resource_index/packages
+[1.900s] symbolically linking /home/alberto/ros2_ws/build/uf_ros_lib/package.xml -> /home/alberto/ros2_ws/install/uf_ros_lib/share/uf_ros_lib
+[1.963s] Invoked command in '/home/alberto/ros2_ws/build/uf_ros_lib' returned '0': PYTHONPATH=/home/alberto/ros2_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/alberto/ros2_ws/build/uf_ros_lib/build --no-deps symlink_data --force

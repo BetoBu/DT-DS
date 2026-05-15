@@ -1,0 +1,56 @@
+[0.254s] Invoking command in '/home/alberto/ros2_ws/build/mycobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake --build /home/alberto/ros2_ws/build/mycobot_interfaces -- -j16 -l16
+[0.429s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.429s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.429s] [  6%] Built target ament_cmake_python_copy_mycobot_interfaces
+[0.449s] running egg_info
+[0.449s] creating mycobot_interfaces.egg-info
+[0.449s] writing mycobot_interfaces.egg-info/PKG-INFO
+[0.449s] writing dependency_links to mycobot_interfaces.egg-info/dependency_links.txt
+[0.449s] writing top-level names to mycobot_interfaces.egg-info/top_level.txt
+[0.449s] writing manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[0.452s] reading manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[0.452s] writing manifest file 'mycobot_interfaces.egg-info/SOURCES.txt'
+[0.515s] [  6%] Built target ament_cmake_python_build_mycobot_interfaces_egg
+[0.714s] [  6%] Built target mycobot_interfaces__cpp
+[0.718s] [  9%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mycobot_interfaces/srv/detail/get_planning_scene__functions.c.o[0m
+[0.722s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.724s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.725s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.797s] [ 22%] [32m[1mLinking C shared library libmycobot_interfaces__rosidl_generator_c.so[0m
+[0.843s] [ 22%] Built target mycobot_interfaces__rosidl_generator_c
+[0.852s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.852s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.853s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.962s] [ 35%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mycobot_interfaces/srv/get_planning_scene__type_support.cpp.o[0m
+[0.986s] [ 38%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mycobot_interfaces/srv/detail/dds_fastrtps/get_planning_scene__type_support.cpp.o[0m
+[1.015s] [ 41%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mycobot_interfaces/srv/detail/get_planning_scene__type_support.cpp.o[0m
+[1.177s] [ 45%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_cpp.so[0m
+[1.212s] [ 48%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mycobot_interfaces/srv/get_planning_scene__type_support.cpp.o[0m
+[1.217s] [ 48%] Built target mycobot_interfaces__rosidl_typesupport_cpp
+[1.224s] [ 54%] [32mBuilding CXX object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mycobot_interfaces/srv/detail/get_planning_scene__type_support_c.cpp.o[0m
+[1.224s] [ 54%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mycobot_interfaces/srv/detail/get_planning_scene__type_support.c.o[0m
+[1.248s] [ 58%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_c.so[0m
+[1.266s] [ 61%] [32m[1mLinking C shared library libmycobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.288s] [ 64%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.290s] [ 64%] Built target mycobot_interfaces__rosidl_typesupport_c
+[1.295s] [ 64%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c
+[1.348s] [ 64%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.424s] [ 67%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.436s] [ 70%] [32m[1mLinking CXX shared library libmycobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.490s] [ 70%] Built target mycobot_interfaces__rosidl_typesupport_introspection_cpp
+[1.494s] [ 70%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c
+[1.519s] [ 70%] Built target mycobot_interfaces
+[1.580s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.948s] [ 74%] Built target mycobot_interfaces__py
+[1.968s] [ 77%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mycobot_interfaces/srv/_get_planning_scene_s.c.o[0m
+[2.068s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/mycobot_interfaces/libmycobot_interfaces__rosidl_generator_py.so[0m
+[2.230s] [ 80%] Built target mycobot_interfaces__rosidl_generator_py
+[2.252s] [ 87%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.252s] [ 87%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.253s] [ 90%] [32mBuilding C object CMakeFiles/mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mycobot_interfaces/_mycobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.320s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.324s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.324s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mycobot_interfaces/mycobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.367s] [100%] Built target mycobot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.367s] [100%] Built target mycobot_interfaces__rosidl_typesupport_c__pyext
+[2.367s] [100%] Built target mycobot_interfaces__rosidl_typesupport_introspection_c__pyext

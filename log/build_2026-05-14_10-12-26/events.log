@@ -1,0 +1,408 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (-) JobUnselected: {'identifier': 'd435i_xarm_setup'}
+[0.000218] (-) JobUnselected: {'identifier': 'mbot_demo'}
+[0.000231] (-) JobUnselected: {'identifier': 'my_robot_conroller'}
+[0.000239] (-) JobUnselected: {'identifier': 'mycobot_bringup'}
+[0.000247] (-) JobUnselected: {'identifier': 'mycobot_description'}
+[0.000254] (-) JobUnselected: {'identifier': 'mycobot_gazebo'}
+[0.000262] (-) JobUnselected: {'identifier': 'mycobot_interfaces'}
+[0.000269] (-) JobUnselected: {'identifier': 'mycobot_moveit_config'}
+[0.000277] (-) JobUnselected: {'identifier': 'mycobot_moveit_demos'}
+[0.000284] (-) JobUnselected: {'identifier': 'mycobot_mtc_demos'}
+[0.000297] (-) JobUnselected: {'identifier': 'mycobot_mtc_pick_place_demo'}
+[0.000304] (-) JobUnselected: {'identifier': 'mycobot_ros2'}
+[0.000312] (-) JobUnselected: {'identifier': 'mycobot_system_tests'}
+[0.000318] (-) JobUnselected: {'identifier': 'realsense_gazebo_plugin'}
+[0.000326] (-) JobUnselected: {'identifier': 'uf_ros_lib'}
+[0.000332] (-) JobUnselected: {'identifier': 'xarm_controller'}
+[0.000340] (-) JobUnselected: {'identifier': 'xarm_description'}
+[0.000347] (-) JobUnselected: {'identifier': 'xarm_gazebo'}
+[0.000354] (-) JobUnselected: {'identifier': 'xarm_moveit_config'}
+[0.000362] (-) JobUnselected: {'identifier': 'xarm_moveit_servo'}
+[0.000371] (-) JobUnselected: {'identifier': 'xarm_msgs'}
+[0.000379] (-) JobUnselected: {'identifier': 'xarm_planner'}
+[0.000387] (-) JobUnselected: {'identifier': 'xarm_sdk'}
+[0.000396] (xarm_api) JobQueued: {'identifier': 'xarm_api', 'dependencies': OrderedDict([('xarm_description', '/home/alberto/ros2_ws/install/xarm_description'), ('xarm_msgs', '/home/alberto/ros2_ws/install/xarm_msgs'), ('xarm_sdk', '/home/alberto/ros2_ws/install/xarm_sdk')])}
+[0.000411] (xarm_api) JobStarted: {'identifier': 'xarm_api'}
+[0.031083] (xarm_api) JobProgress: {'identifier': 'xarm_api', 'progress': 'cmake'}
+[0.033129] (xarm_api) JobProgress: {'identifier': 'xarm_api', 'progress': 'build'}
+[0.035228] (xarm_api) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alberto/ros2_ws/build/xarm_api', '--', '-j16', '-l16'], 'cwd': '/home/alberto/ros2_ws/build/xarm_api', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alberto'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alberto/ros2_ws/install/xarm_sdk/lib:/home/alberto/ros2_ws/install/xarm_msgs/lib:/home/alberto/ros2_ws/install/xarm_planner/lib:/home/alberto/ros2_ws/install/xarm_moveit_servo/lib:/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin/lib:/home/alberto/ros2_ws/install/mycobot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alberto'), ('OLDPWD', '/home/alberto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1588'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alberto/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alberto'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alberto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alberto-Cyborg-17-B2RWEKG:@/tmp/.ICE-unix/1558,unix/alberto-Cyborg-17-B2RWEKG:/tmp/.ICE-unix/1558'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/879783bd_bdab_498c_ba59_2414410b3f0a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.50E5O3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alberto/ros2_ws/install/xarm_planner:/home/alberto/ros2_ws/install/xarm_moveit_servo:/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/d435i_xarm_setup:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin:/home/alberto/ros2_ws/install/mycobot_ros2:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_moveit_config:/home/alberto/ros2_ws/install/mycobot_interfaces:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alberto/ros2_ws/build/xarm_api'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alberto/ros2_ws/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:/home/alberto/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/alberto/ros2_ws/install/my_robot_conroller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/xarm_planner:/home/alberto/ros2_ws/install/xarm_moveit_servo:/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/d435i_xarm_setup:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/mycobot_ros2:/home/alberto/ros2_ws/install/mycobot_interfaces:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_moveit_config:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble')]), 'shell': False}
+[0.099720] (-) TimerEvent: {}
+[0.200544] (-) TimerEvent: {}
+[0.301326] (-) TimerEvent: {}
+[0.385486] (xarm_api) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/test_robot_states.dir/test/test_robot_states.cpp.o\x1b[0m\n'}
+[0.385814] (xarm_api) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/xarm_ros_client.dir/src/xarm_ros_client.cpp.o\x1b[0m\n'}
+[0.389797] (xarm_api) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/xarm_ros_driver.dir/src/xarm_driver_service.cpp.o\x1b[0m\n'}
+[0.390682] (xarm_api) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/xarm_ros_driver.dir/src/xarm_driver.cpp.o\x1b[0m\n'}
+[0.401348] (-) TimerEvent: {}
+[0.501611] (-) TimerEvent: {}
+[0.601921] (-) TimerEvent: {}
+[0.702246] (-) TimerEvent: {}
+[0.802531] (-) TimerEvent: {}
+[0.902890] (-) TimerEvent: {}
+[1.003229] (-) TimerEvent: {}
+[1.103516] (-) TimerEvent: {}
+[1.203842] (-) TimerEvent: {}
+[1.304135] (-) TimerEvent: {}
+[1.404534] (-) TimerEvent: {}
+[1.505083] (-) TimerEvent: {}
+[1.605390] (-) TimerEvent: {}
+[1.705725] (-) TimerEvent: {}
+[1.806101] (-) TimerEvent: {}
+[1.906402] (-) TimerEvent: {}
+[2.006726] (-) TimerEvent: {}
+[2.107061] (-) TimerEvent: {}
+[2.207369] (-) TimerEvent: {}
+[2.307702] (-) TimerEvent: {}
+[2.408029] (-) TimerEvent: {}
+[2.508366] (-) TimerEvent: {}
+[2.608695] (-) TimerEvent: {}
+[2.708983] (-) TimerEvent: {}
+[2.809278] (-) TimerEvent: {}
+[2.909605] (-) TimerEvent: {}
+[3.009995] (-) TimerEvent: {}
+[3.110306] (-) TimerEvent: {}
+[3.210673] (-) TimerEvent: {}
+[3.310959] (-) TimerEvent: {}
+[3.411283] (-) TimerEvent: {}
+[3.511565] (-) TimerEvent: {}
+[3.611887] (-) TimerEvent: {}
+[3.712191] (-) TimerEvent: {}
+[3.812482] (-) TimerEvent: {}
+[3.912830] (-) TimerEvent: {}
+[4.013141] (-) TimerEvent: {}
+[4.113441] (-) TimerEvent: {}
+[4.213767] (-) TimerEvent: {}
+[4.314126] (-) TimerEvent: {}
+[4.414418] (-) TimerEvent: {}
+[4.514713] (-) TimerEvent: {}
+[4.615087] (-) TimerEvent: {}
+[4.715401] (-) TimerEvent: {}
+[4.815695] (-) TimerEvent: {}
+[4.915996] (-) TimerEvent: {}
+[5.016300] (-) TimerEvent: {}
+[5.116633] (-) TimerEvent: {}
+[5.216962] (-) TimerEvent: {}
+[5.317352] (-) TimerEvent: {}
+[5.417690] (-) TimerEvent: {}
+[5.518065] (-) TimerEvent: {}
+[5.618489] (-) TimerEvent: {}
+[5.718826] (-) TimerEvent: {}
+[5.819241] (-) TimerEvent: {}
+[5.919621] (-) TimerEvent: {}
+[6.020028] (-) TimerEvent: {}
+[6.120327] (-) TimerEvent: {}
+[6.220650] (-) TimerEvent: {}
+[6.320982] (-) TimerEvent: {}
+[6.421295] (-) TimerEvent: {}
+[6.521569] (-) TimerEvent: {}
+[6.621886] (-) TimerEvent: {}
+[6.722210] (-) TimerEvent: {}
+[6.822763] (-) TimerEvent: {}
+[6.923079] (-) TimerEvent: {}
+[7.023367] (-) TimerEvent: {}
+[7.123744] (-) TimerEvent: {}
+[7.224123] (-) TimerEvent: {}
+[7.324405] (-) TimerEvent: {}
+[7.424718] (-) TimerEvent: {}
+[7.525033] (-) TimerEvent: {}
+[7.625447] (-) TimerEvent: {}
+[7.725761] (-) TimerEvent: {}
+[7.826077] (-) TimerEvent: {}
+[7.926468] (-) TimerEvent: {}
+[8.026705] (-) TimerEvent: {}
+[8.126956] (-) TimerEvent: {}
+[8.227232] (-) TimerEvent: {}
+[8.327532] (-) TimerEvent: {}
+[8.427935] (-) TimerEvent: {}
+[8.528230] (-) TimerEvent: {}
+[8.628540] (-) TimerEvent: {}
+[8.728813] (-) TimerEvent: {}
+[8.829094] (-) TimerEvent: {}
+[8.929380] (-) TimerEvent: {}
+[9.029659] (-) TimerEvent: {}
+[9.129931] (-) TimerEvent: {}
+[9.230267] (-) TimerEvent: {}
+[9.330621] (-) TimerEvent: {}
+[9.430883] (-) TimerEvent: {}
+[9.531135] (-) TimerEvent: {}
+[9.631355] (-) TimerEvent: {}
+[9.731594] (-) TimerEvent: {}
+[9.831849] (-) TimerEvent: {}
+[9.932108] (-) TimerEvent: {}
+[9.951154] (xarm_api) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX executable test_robot_states\x1b[0m\n'}
+[10.032234] (-) TimerEvent: {}
+[10.132458] (-) TimerEvent: {}
+[10.232719] (-) TimerEvent: {}
+[10.332961] (-) TimerEvent: {}
+[10.433206] (-) TimerEvent: {}
+[10.533484] (-) TimerEvent: {}
+[10.540942] (xarm_api) StdoutLine: {'line': b'[ 38%] Built target test_robot_states\n'}
+[10.633611] (-) TimerEvent: {}
+[10.733827] (-) TimerEvent: {}
+[10.834077] (-) TimerEvent: {}
+[10.934288] (-) TimerEvent: {}
+[11.034492] (-) TimerEvent: {}
+[11.134735] (-) TimerEvent: {}
+[11.235046] (-) TimerEvent: {}
+[11.335222] (-) TimerEvent: {}
+[11.435434] (-) TimerEvent: {}
+[11.535688] (-) TimerEvent: {}
+[11.635902] (-) TimerEvent: {}
+[11.736190] (-) TimerEvent: {}
+[11.836409] (-) TimerEvent: {}
+[11.936653] (-) TimerEvent: {}
+[12.036912] (-) TimerEvent: {}
+[12.137203] (-) TimerEvent: {}
+[12.237418] (-) TimerEvent: {}
+[12.337670] (-) TimerEvent: {}
+[12.437984] (-) TimerEvent: {}
+[12.538247] (-) TimerEvent: {}
+[12.638457] (-) TimerEvent: {}
+[12.738699] (-) TimerEvent: {}
+[12.838906] (-) TimerEvent: {}
+[12.939119] (-) TimerEvent: {}
+[13.039485] (-) TimerEvent: {}
+[13.153785] (-) TimerEvent: {}
+[13.254040] (-) TimerEvent: {}
+[13.354241] (-) TimerEvent: {}
+[13.454440] (-) TimerEvent: {}
+[13.554658] (-) TimerEvent: {}
+[13.654892] (-) TimerEvent: {}
+[13.755100] (-) TimerEvent: {}
+[13.855311] (-) TimerEvent: {}
+[13.955549] (-) TimerEvent: {}
+[14.055798] (-) TimerEvent: {}
+[14.156037] (-) TimerEvent: {}
+[14.256247] (-) TimerEvent: {}
+[14.356453] (-) TimerEvent: {}
+[14.456655] (-) TimerEvent: {}
+[14.556856] (-) TimerEvent: {}
+[14.657060] (-) TimerEvent: {}
+[14.757214] (-) TimerEvent: {}
+[14.857421] (-) TimerEvent: {}
+[14.957641] (-) TimerEvent: {}
+[15.057867] (-) TimerEvent: {}
+[15.158122] (-) TimerEvent: {}
+[15.258384] (-) TimerEvent: {}
+[15.358636] (-) TimerEvent: {}
+[15.458886] (-) TimerEvent: {}
+[15.559136] (-) TimerEvent: {}
+[15.659448] (-) TimerEvent: {}
+[15.759672] (-) TimerEvent: {}
+[15.859925] (-) TimerEvent: {}
+[15.960167] (-) TimerEvent: {}
+[16.060452] (-) TimerEvent: {}
+[16.160704] (-) TimerEvent: {}
+[16.260969] (-) TimerEvent: {}
+[16.361227] (-) TimerEvent: {}
+[16.391881] (xarm_api) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libxarm_ros_client.so\x1b[0m\n'}
+[16.461361] (-) TimerEvent: {}
+[16.561622] (-) TimerEvent: {}
+[16.661994] (-) TimerEvent: {}
+[16.762300] (-) TimerEvent: {}
+[16.862521] (-) TimerEvent: {}
+[16.962780] (-) TimerEvent: {}
+[17.062994] (-) TimerEvent: {}
+[17.163276] (-) TimerEvent: {}
+[17.263508] (-) TimerEvent: {}
+[17.363752] (-) TimerEvent: {}
+[17.365345] (xarm_api) StdoutLine: {'line': b'[ 46%] Built target xarm_ros_client\n'}
+[17.398112] (xarm_api) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/test_xarm_velo_move.dir/test/test_xarm_velo_move.cpp.o\x1b[0m\n'}
+[17.398360] (xarm_api) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/test_xarm_ros_client.dir/test/test_xarm_ros_client.cpp.o\x1b[0m\n'}
+[17.463874] (-) TimerEvent: {}
+[17.564082] (-) TimerEvent: {}
+[17.664298] (-) TimerEvent: {}
+[17.764507] (-) TimerEvent: {}
+[17.864836] (-) TimerEvent: {}
+[17.965056] (-) TimerEvent: {}
+[18.065270] (-) TimerEvent: {}
+[18.165489] (-) TimerEvent: {}
+[18.265740] (-) TimerEvent: {}
+[18.366004] (-) TimerEvent: {}
+[18.466264] (-) TimerEvent: {}
+[18.566482] (-) TimerEvent: {}
+[18.666742] (-) TimerEvent: {}
+[18.767005] (-) TimerEvent: {}
+[18.867291] (-) TimerEvent: {}
+[18.967531] (-) TimerEvent: {}
+[19.067783] (-) TimerEvent: {}
+[19.168075] (-) TimerEvent: {}
+[19.268357] (-) TimerEvent: {}
+[19.368628] (-) TimerEvent: {}
+[19.468864] (-) TimerEvent: {}
+[19.569120] (-) TimerEvent: {}
+[19.669345] (-) TimerEvent: {}
+[19.769557] (-) TimerEvent: {}
+[19.869822] (-) TimerEvent: {}
+[19.970091] (-) TimerEvent: {}
+[20.070315] (-) TimerEvent: {}
+[20.170546] (-) TimerEvent: {}
+[20.270843] (-) TimerEvent: {}
+[20.371111] (-) TimerEvent: {}
+[20.471342] (-) TimerEvent: {}
+[20.571577] (-) TimerEvent: {}
+[20.671850] (-) TimerEvent: {}
+[20.772108] (-) TimerEvent: {}
+[20.872332] (-) TimerEvent: {}
+[20.972551] (-) TimerEvent: {}
+[21.063554] (xarm_api) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX executable test_xarm_velo_move\x1b[0m\n'}
+[21.065072] (xarm_api) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable test_xarm_ros_client\x1b[0m\n'}
+[21.072663] (-) TimerEvent: {}
+[21.172905] (-) TimerEvent: {}
+[21.273177] (-) TimerEvent: {}
+[21.373454] (-) TimerEvent: {}
+[21.473757] (-) TimerEvent: {}
+[21.511896] (xarm_api) StdoutLine: {'line': b'[ 76%] Built target test_xarm_velo_move\n'}
+[21.527050] (xarm_api) StdoutLine: {'line': b'[ 76%] Built target test_xarm_ros_client\n'}
+[21.573906] (-) TimerEvent: {}
+[21.674283] (-) TimerEvent: {}
+[21.774596] (-) TimerEvent: {}
+[21.874964] (-) TimerEvent: {}
+[21.975280] (-) TimerEvent: {}
+[22.075583] (-) TimerEvent: {}
+[22.175941] (-) TimerEvent: {}
+[22.276259] (-) TimerEvent: {}
+[22.376635] (-) TimerEvent: {}
+[22.477093] (-) TimerEvent: {}
+[22.577587] (-) TimerEvent: {}
+[22.677866] (-) TimerEvent: {}
+[22.778141] (-) TimerEvent: {}
+[22.878427] (-) TimerEvent: {}
+[22.978721] (-) TimerEvent: {}
+[23.078996] (-) TimerEvent: {}
+[23.179285] (-) TimerEvent: {}
+[23.279610] (-) TimerEvent: {}
+[23.379924] (-) TimerEvent: {}
+[23.480297] (-) TimerEvent: {}
+[23.580612] (-) TimerEvent: {}
+[23.680943] (-) TimerEvent: {}
+[23.781336] (-) TimerEvent: {}
+[23.881653] (-) TimerEvent: {}
+[23.981970] (-) TimerEvent: {}
+[24.082351] (-) TimerEvent: {}
+[24.182685] (-) TimerEvent: {}
+[24.283027] (-) TimerEvent: {}
+[24.383391] (-) TimerEvent: {}
+[24.385522] (xarm_api) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libxarm_ros_driver.so\x1b[0m\n'}
+[24.483489] (-) TimerEvent: {}
+[24.583802] (-) TimerEvent: {}
+[24.684120] (-) TimerEvent: {}
+[24.784421] (-) TimerEvent: {}
+[24.884747] (-) TimerEvent: {}
+[24.985087] (-) TimerEvent: {}
+[25.085788] (-) TimerEvent: {}
+[25.186134] (-) TimerEvent: {}
+[25.286427] (-) TimerEvent: {}
+[25.386689] (-) TimerEvent: {}
+[25.486994] (-) TimerEvent: {}
+[25.587309] (-) TimerEvent: {}
+[25.687617] (-) TimerEvent: {}
+[25.787875] (-) TimerEvent: {}
+[25.888096] (-) TimerEvent: {}
+[25.988431] (-) TimerEvent: {}
+[26.088648] (-) TimerEvent: {}
+[26.188859] (-) TimerEvent: {}
+[26.228823] (xarm_api) StdoutLine: {'line': b'[ 84%] Built target xarm_ros_driver\n'}
+[26.289236] (-) TimerEvent: {}
+[26.301295] (xarm_api) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/xarm_driver_node.dir/src/xarm_driver_node.cpp.o\x1b[0m\n'}
+[26.389289] (-) TimerEvent: {}
+[26.489594] (-) TimerEvent: {}
+[26.589908] (-) TimerEvent: {}
+[26.690248] (-) TimerEvent: {}
+[26.790528] (-) TimerEvent: {}
+[26.890846] (-) TimerEvent: {}
+[26.991160] (-) TimerEvent: {}
+[27.091581] (-) TimerEvent: {}
+[27.191815] (-) TimerEvent: {}
+[27.292084] (-) TimerEvent: {}
+[27.392417] (-) TimerEvent: {}
+[27.492736] (-) TimerEvent: {}
+[27.593001] (-) TimerEvent: {}
+[27.693310] (-) TimerEvent: {}
+[27.793590] (-) TimerEvent: {}
+[27.893860] (-) TimerEvent: {}
+[27.994134] (-) TimerEvent: {}
+[28.094386] (-) TimerEvent: {}
+[28.194669] (-) TimerEvent: {}
+[28.294999] (-) TimerEvent: {}
+[28.395307] (-) TimerEvent: {}
+[28.495548] (-) TimerEvent: {}
+[28.595773] (-) TimerEvent: {}
+[28.695980] (-) TimerEvent: {}
+[28.796246] (-) TimerEvent: {}
+[28.896456] (-) TimerEvent: {}
+[28.996669] (-) TimerEvent: {}
+[29.096904] (-) TimerEvent: {}
+[29.197151] (-) TimerEvent: {}
+[29.297379] (-) TimerEvent: {}
+[29.397641] (-) TimerEvent: {}
+[29.423054] (xarm_api) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable xarm_driver_node\x1b[0m\n'}
+[29.497883] (-) TimerEvent: {}
+[29.598569] (-) TimerEvent: {}
+[29.698838] (-) TimerEvent: {}
+[29.799169] (-) TimerEvent: {}
+[29.899420] (-) TimerEvent: {}
+[29.999685] (-) TimerEvent: {}
+[30.051408] (xarm_api) StdoutLine: {'line': b'[100%] Built target xarm_driver_node\n'}
+[30.063147] (xarm_api) CommandEnded: {'returncode': 0}
+[30.065571] (xarm_api) JobProgress: {'identifier': 'xarm_api', 'progress': 'install'}
+[30.078121] (xarm_api) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alberto/ros2_ws/build/xarm_api'], 'cwd': '/home/alberto/ros2_ws/build/xarm_api', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alberto'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alberto/ros2_ws/install/xarm_sdk/lib:/home/alberto/ros2_ws/install/xarm_msgs/lib:/home/alberto/ros2_ws/install/xarm_planner/lib:/home/alberto/ros2_ws/install/xarm_moveit_servo/lib:/home/alberto/ros2_ws/install/xarm_gazebo/lib:/home/alberto/ros2_ws/install/xarm_controller/lib:/home/alberto/ros2_ws/install/xarm_api/lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin/lib:/home/alberto/ros2_ws/install/mycobot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alberto'), ('OLDPWD', '/home/alberto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1588'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/alberto/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alberto'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alberto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/alberto-Cyborg-17-B2RWEKG:@/tmp/.ICE-unix/1558,unix/alberto-Cyborg-17-B2RWEKG:/tmp/.ICE-unix/1558'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/879783bd_bdab_498c_ba59_2414410b3f0a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.50E5O3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/alberto/ros2_ws/install/xarm_planner:/home/alberto/ros2_ws/install/xarm_moveit_servo:/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/d435i_xarm_setup:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin:/home/alberto/ros2_ws/install/mycobot_ros2:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_moveit_config:/home/alberto/ros2_ws/install/mycobot_interfaces:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alberto/ros2_ws/build/xarm_api'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alberto/ros2_ws/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/alberto/ros2_ws/install/uf_ros_lib/lib/python3.10/site-packages:/home/alberto/ros2_ws/install/mycobot_interfaces/local/lib/python3.10/dist-packages:/home/alberto/ros2_ws/install/my_robot_conroller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/alberto/ros2_ws/install/xarm_sdk:/home/alberto/ros2_ws/install/xarm_msgs:/home/alberto/ros2_ws/install/xarm_description:/home/alberto/ros2_ws/install/xarm_planner:/home/alberto/ros2_ws/install/xarm_moveit_servo:/home/alberto/ros2_ws/install/xarm_moveit_config:/home/alberto/ros2_ws/install/xarm_gazebo:/home/alberto/ros2_ws/install/xarm_controller:/home/alberto/ros2_ws/install/d435i_xarm_setup:/home/alberto/ros2_ws/install/xarm_api:/home/alberto/ros2_ws/install/mycobot_ros2:/home/alberto/ros2_ws/install/mycobot_interfaces:/home/alberto/ros2_ws/install/mycobot_gazebo:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/realsense_gazebo_plugin:/home/alberto/ros2_ws/install/mycobot_system_tests:/home/alberto/ros2_ws/install/mycobot_moveit_config:/home/alberto/ros2_ws/install/mycobot_description:/home/alberto/ros2_ws/install/mycobot_bringup:/home/alberto/ros2_ws/install/my_robot_conroller:/home/alberto/ros2_ws/install/mbot_demo:/opt/ros/humble')]), 'shell': False}
+[30.099942] (-) TimerEvent: {}
+[30.160854] (xarm_api) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.162132] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/environment/library_path.sh\n'}
+[30.163594] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/environment/library_path.dsv\n'}
+[30.164274] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/include\n'}
+[30.164596] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/include/xarm_api\n'}
+[30.165695] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/include/xarm_api/xarm_driver.h\n'}
+[30.166745] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/include/xarm_api/xarm_msgs.h\n'}
+[30.167536] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/include/xarm_api/xarm_ros_client.h\n'}
+[30.168090] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/include/xarm_api/visibility_control.h\n'}
+[30.168642] (xarm_api) StdoutLine: {'line': b'-- Installing: /home/alberto/ros2_ws/install/xarm_api/lib/libxarm_ros_driver.so\n'}
+[30.200068] (-) TimerEvent: {}
+[30.201552] (xarm_api) StdoutLine: {'line': b'-- Set runtime path of "/home/alberto/ros2_ws/install/xarm_api/lib/libxarm_ros_driver.so" to ""\n'}
+[30.205371] (xarm_api) StdoutLine: {'line': b'-- Installing: /home/alberto/ros2_ws/install/xarm_api/lib/libxarm_ros_client.so\n'}
+[30.215542] (xarm_api) StdoutLine: {'line': b'-- Set runtime path of "/home/alberto/ros2_ws/install/xarm_api/lib/libxarm_ros_client.so" to ""\n'}
+[30.216687] (xarm_api) StdoutLine: {'line': b'-- Installing: /home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/xarm_driver_node\n'}
+[30.216949] (xarm_api) StdoutLine: {'line': b'-- Set runtime path of "/home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/xarm_driver_node" to ""\n'}
+[30.218074] (xarm_api) StdoutLine: {'line': b'-- Installing: /home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/test_xarm_ros_client\n'}
+[30.218359] (xarm_api) StdoutLine: {'line': b'-- Set runtime path of "/home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/test_xarm_ros_client" to ""\n'}
+[30.219188] (xarm_api) StdoutLine: {'line': b'-- Installing: /home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/test_xarm_velo_move\n'}
+[30.219404] (xarm_api) StdoutLine: {'line': b'-- Set runtime path of "/home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/test_xarm_velo_move" to ""\n'}
+[30.220041] (xarm_api) StdoutLine: {'line': b'-- Installing: /home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/test_robot_states\n'}
+[30.223013] (xarm_api) StdoutLine: {'line': b'-- Set runtime path of "/home/alberto/ros2_ws/install/xarm_api/lib/xarm_api/test_robot_states" to ""\n'}
+[30.223110] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch\n'}
+[30.223145] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/lite6_driver.launch.py\n'}
+[30.223179] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/_robot_driver.launch.py\n'}
+[30.223209] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/xarm6_driver.launch.py\n'}
+[30.223355] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/__pycache__\n'}
+[30.223839] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/__pycache__/xarm6_driver.launch.cpython-310.pyc\n'}
+[30.223869] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/__pycache__/_robot_driver.launch.cpython-310.pyc\n'}
+[30.223897] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/xarm7_driver.launch.py\n'}
+[30.223924] (xarm_api) StdoutLine: {'line': b'-- Installing: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/triple_lite6_driver.launch.py\n'}
+[30.223952] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/uf850_driver.launch.py\n'}
+[30.223985] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/xarm5_driver.launch.py\n'}
+[30.224011] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/lib\n'}
+[30.224117] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//launch/lib/robot_api_lib.py\n'}
+[30.224168] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//config\n'}
+[30.224609] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api//config/xarm_params.yaml\n'}
+[30.224637] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/ament_index/resource_index/package_run_dependencies/xarm_api\n'}
+[30.224719] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/ament_index/resource_index/parent_prefix_path/xarm_api\n'}
+[30.224766] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/environment/ament_prefix_path.sh\n'}
+[30.224822] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/environment/ament_prefix_path.dsv\n'}
+[30.224887] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/environment/path.sh\n'}
+[30.224917] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/environment/path.dsv\n'}
+[30.224946] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/local_setup.bash\n'}
+[30.224974] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/local_setup.sh\n'}
+[30.225029] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/local_setup.zsh\n'}
+[30.225057] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/local_setup.dsv\n'}
+[30.225084] (xarm_api) StdoutLine: {'line': b'-- Installing: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/package.dsv\n'}
+[30.225376] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/ament_index/resource_index/packages/xarm_api\n'}
+[30.225656] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.225753] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.225834] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/cmake/xarm_apiConfig.cmake\n'}
+[30.225910] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/cmake/xarm_apiConfig-version.cmake\n'}
+[30.225984] (xarm_api) StdoutLine: {'line': b'-- Up-to-date: /home/alberto/ros2_ws/install/xarm_api/share/xarm_api/package.xml\n'}
+[30.226895] (xarm_api) CommandEnded: {'returncode': 0}
+[30.260907] (xarm_api) JobEnded: {'identifier': 'xarm_api', 'rc': 0}
+[30.261902] (-) EventReactorShutdown: {}

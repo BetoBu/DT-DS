@@ -1,0 +1,1 @@
+Invoking command in '/home/alberto/ros2_ws/build/mycobot_moveit_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alberto/ros2_ws/install/uf_ros_lib:/home/alberto/ros2_ws/install/my_robot_conroller:/opt/ros/humble /usr/bin/cmake /home/alberto/ros2_ws/src/mycobot_ros2/mycobot_moveit_demos -DCMAKE_INSTALL_PREFIX=/home/alberto/ros2_ws/install/mycobot_moveit_demos

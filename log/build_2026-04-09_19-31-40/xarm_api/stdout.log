@@ -1,0 +1,6 @@
+[ 15%] Built target xarm_ros_client
+[ 30%] Built target test_robot_states
+[ 53%] Built target xarm_ros_driver
+[ 69%] Built target xarm_driver_node
+[ 84%] Built target test_xarm_ros_client
+[100%] Built target test_xarm_velo_move
