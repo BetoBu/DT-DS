@@ -124,3 +124,37 @@ La tabla `robot_telemetry` almacena cada 2 segundos:
 ```bash
 ros2 control switch_controllers --activate B_lite6_traj_controller
 ```
+
+---
+
+## Tabla en Supabase Eliminada
+Si borraste la tabla de Supabase y ahora el codigo no funciona, haz los siguientes pasos:
+Entra al Apartado SQL y corre este codigo:
+
+```bash
+CREATE TABLE robot_telemetry (
+  id bigserial PRIMARY KEY,
+  timestamp timestamptz DEFAULT now(),
+  robot_id text NOT NULL,
+  joint1_angle float, joint2_angle float, joint3_angle float,
+  joint4_angle float, joint5_angle float, joint6_angle float,
+  joint1_temp float, joint2_temp float, joint3_temp float,
+  joint4_temp float, joint5_temp float, joint6_temp float,
+  joint1_current float, joint2_current float, joint3_current float,
+  joint4_current float, joint5_current float, joint6_current float,
+  joint1_voltage float, joint2_voltage float, joint3_voltage float,
+  joint4_voltage float, joint5_voltage float, joint6_voltage float,
+  pos_x float, pos_y float, pos_z float,
+  roll float, pitch float, yaw float,
+  state int, error_code int, warn_code int
+);
+```
+
+Despues corre esto:
+```
+CREATE POLICY "Allow all inserts" ON robot_telemetry
+FOR INSERT WITH CHECK (true);
+
+CREATE POLICY "Allow all selects" ON robot_telemetry
+FOR SELECT USING (true);
+```
