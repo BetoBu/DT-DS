@@ -1,1 +1,0 @@
-/home/alberto/ros2_ws/src/xarm_ros2/xarm_description/launch/_robot_description.launch.py

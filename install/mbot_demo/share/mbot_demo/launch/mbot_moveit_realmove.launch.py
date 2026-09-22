@@ -1,1 +1,0 @@
-/home/alberto/ros2_ws/src/xarm_ros2/demo/mbot_demo/launch/mbot_moveit_realmove.launch.py

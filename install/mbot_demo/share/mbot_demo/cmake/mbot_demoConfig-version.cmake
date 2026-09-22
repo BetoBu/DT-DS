@@ -1,1 +1,0 @@
-/home/alberto/ros2_ws/build/mbot_demo/ament_cmake_core/mbot_demoConfig-version.cmake

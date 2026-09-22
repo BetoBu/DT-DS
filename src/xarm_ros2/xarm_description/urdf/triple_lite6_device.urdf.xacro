@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="TRIPLE_UF_ROBOT">
+  <!-- Prefijos para cada robot -->
+  <xacro:arg name="prefix_1" default="A_"/>
+  <xacro:arg name="prefix_2" default="B_"/>
+  <xacro:arg name="prefix_3" default="C_"/>
+
+  <!-- Parametros compartidos -->
+  <xacro:arg name="hw_ns"            default="xarm"/>
+  <xacro:arg name="limited"          default="false"/>
+  <xacro:arg name="effort_control"   default="false"/>
+  <xacro:arg name="velocity_control" default="false"/>
+
+  <!-- ros2_control -->
+  <xacro:arg name="ros2_control_plugin"  default="ign_ros2_control/IgnitionSystem"/>
+  <xacro:arg name="ros2_control_params"  default=""/>
+
+  <!-- Posiciones de cada robot en el mundo (ajusta XYZ a tu celda real) -->
+  <!-- Robot 1: izquierda -->
+  <xacro:arg name="attach_xyz_1" default="0 -0.8 0"/>
+  <xacro:arg name="attach_rpy_1" default="0 0 0"/>
+  <!-- Robot 2: centro -->
+  <xacro:arg name="attach_xyz_2" default="0 0 0"/>
+  <xacro:arg name="attach_rpy_2" default="0 0 0"/>
+  <!-- Robot 3: derecha -->
+  <xacro:arg name="attach_xyz_3" default="0 0.8 0"/>
+  <xacro:arg name="attach_rpy_3" default="0 0 0"/>
+
+  <!-- Incluir macro del dispositivo xarm -->
+  <xacro:include filename="$(find xarm_description)/urdf/xarm_device_macro.xacro"/>
+
+  <!-- ========== ROBOT 1 ========== -->
+  <xacro:xarm_device
+    prefix="$(arg prefix_1)"
+    hw_ns="$(arg hw_ns)"
+    limited="$(arg limited)"
+    effort_control="$(arg effort_control)"
+    velocity_control="$(arg velocity_control)"
+    add_gripper="false"
+    add_vacuum_gripper="false"
+    add_bio_gripper="false"
+    dof="6"
+    robot_type="lite"
+    ros2_control_plugin="$(arg ros2_control_plugin)"
+    ros2_control_params="$(arg ros2_control_params)"
+    load_gazebo_plugin="false"
+    attach_to="world"
+    attach_xyz="$(arg attach_xyz_1)"
+    attach_rpy="$(arg attach_rpy_1)"
+    add_realsense_d435i="false"
+    add_other_geometry="false"
+    model1300="false"
+    robot_sn=""
+    mesh_suffix="stl"
+    kinematics_suffix=""
+  />
+
+  <!-- ========== ROBOT 2 ========== -->
+  <xacro:xarm_device
+    prefix="$(arg prefix_2)"
+    hw_ns="$(arg hw_ns)"
+    limited="$(arg limited)"
+    effort_control="$(arg effort_control)"
+    velocity_control="$(arg velocity_control)"
+    add_gripper="false"
+    add_vacuum_gripper="false"
+    add_bio_gripper="false"
+    dof="6"
+    robot_type="lite"
+    ros2_control_plugin="$(arg ros2_control_plugin)"
+    ros2_control_params="$(arg ros2_control_params)"
+    load_gazebo_plugin="false"
+    attach_to="world"
+    attach_xyz="$(arg attach_xyz_2)"
+    attach_rpy="$(arg attach_rpy_2)"
+    create_attach_link="false"
+    add_realsense_d435i="false"
+    add_other_geometry="false"
+    model1300="false"
+    robot_sn=""
+    mesh_suffix="stl"
+    kinematics_suffix=""
+  />
+
+  <!-- ========== ROBOT 3 ========== -->
+  <xacro:xarm_device
+    prefix="$(arg prefix_3)"
+    hw_ns="$(arg hw_ns)"
+    limited="$(arg limited)"
+    effort_control="$(arg effort_control)"
+    velocity_control="$(arg velocity_control)"
+    add_gripper="false"
+    add_vacuum_gripper="false"
+    add_bio_gripper="false"
+    dof="6"
+    robot_type="lite"
+    ros2_control_plugin="$(arg ros2_control_plugin)"
+    ros2_control_params="$(arg ros2_control_params)"
+    load_gazebo_plugin="true"
+    attach_to="world"
+    attach_xyz="$(arg attach_xyz_3)"
+    attach_rpy="$(arg attach_rpy_3)"
+    create_attach_link="false"
+    add_realsense_d435i="false"
+    add_other_geometry="false"
+    model1300="false"
+    robot_sn=""
+    mesh_suffix="stl"
+    kinematics_suffix=""
+  />
+
+</robot>
