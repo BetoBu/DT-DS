@@ -20,7 +20,7 @@ sudo ip addr add 192.168.0.100/24 dev enp3s0
 
 Dependencias
 ```bash
-sudo apt install ros-humble-topic-tools
+sudo apt install ros-jazzy-topic-tools
 pip3 install xarm-python-sdk supabase
 ```
 

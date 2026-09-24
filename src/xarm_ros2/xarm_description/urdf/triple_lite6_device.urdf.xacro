@@ -12,7 +12,7 @@
   <xacro:arg name="velocity_control" default="false"/>
 
   <!-- ros2_control -->
-  <xacro:arg name="ros2_control_plugin"  default="ign_ros2_control/IgnitionSystem"/>
+  <xacro:arg name="ros2_control_plugin"  default="gz_ros2_control/GazeboSimSystem"/>
   <xacro:arg name="ros2_control_params"  default=""/>
 
   <!-- Posiciones de cada robot en el mundo (ajusta XYZ a tu celda real) -->

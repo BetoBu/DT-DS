@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Digital Shadow - Triple xArm Lite6
-# Ignition Fortress (ign gazebo) + ROS 2 Humble
+# Gazebo Harmonic (gz sim) + ROS 2 Jazzy
 #
 # Uso:
 #   ros2 launch xarm_gazebo triple_lite6_gazebo.launch.py
@@ -99,7 +99,7 @@ def launch_setup(context, *args, **kwargs):
     robot_description_content = get_xacro_content(
         context,
         xacro_file=xacro_file,
-        ros2_control_plugin='ign_ros2_control/IgnitionSystem',
+        ros2_control_plugin='gz_ros2_control/GazeboSimSystem',
         ros2_control_params=ros2_control_params_file,
         prefix_1=prefix_1,
         prefix_2=prefix_2,
